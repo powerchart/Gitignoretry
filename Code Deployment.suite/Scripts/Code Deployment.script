@@ -1,0 +1,80 @@
+﻿//To open iBus deployer and deploy code
+
+WaitFor 240.0, "FileExp"
+click "FileExp"
+WaitFor 240.0, "Adress bar.png"
+click item 2 of EveryImageLocation ("Adress bar")
+TypeText global  Domain_Name
+TypeText returnkey
+WaitFor 240.0, (Text:"exe")
+DoubleClick text: "exe"
+WaitFor 240.0, (Text:"UserName")
+typetext global Network_UserName
+Wait 5
+typetext tabKey
+TypeText global Deployer_Password
+Wait 5
+TypeText returnKey
+
+//To Select Solution .iBus file from Deployer
+Wait 5
+WaitFor 240, (Text:"Capacity Management")
+
+if ImageFound(Text:"Capacity Management")
+	LogSuccess "Deployer Login successful"
+else 
+	LogWarning "Deployer page not loaded"
+	
+end if
+
+Click (Text:"Name")
+
+ScrollWheelDown (30)
+
+Repeat Count times
+	
+	TypeText tabKey
+	Wait 5
+	
+End repeat
+
+CaptureScreen 
+
+LogSuccess ".iBus file selection completed"
+
+Click (Image:"Configure", WaitFor:180, text:"Configure")
+Waitfor 240, (Text: "History")
+
+Click (Image:"Deploy", WaitFor:180,text: "Deploy" )
+WaitFor 240.0, (Text:"Solution Changes")
+
+TypeText tabKey
+
+Repeat 1 times
+	TypeText tabKey
+End repeat
+
+typetext returnkey
+WaitFor 240.0, (Text:"Yes")
+typetext returnkey
+WaitFor 240.0, (Text:"Save")
+typetext returnkey
+WaitFor 240.0,"Backup-OK"
+Click "Backup-OK"
+CaptureScreen
+WaitFor 240.0, (Text:"Deploy Success")
+CaptureScreen
+typetext returnkey
+LogSuccess "Deployment Completed Successfully"
+
+
+
+
+
+
+
+
+
+
+
+

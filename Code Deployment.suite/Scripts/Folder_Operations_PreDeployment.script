@@ -1,0 +1,22 @@
+﻿//To copy .ibus files pre deployment
+Click "Start"
+TypeText "Internet Explorer"
+Wait 5
+TypeText returnKey
+Wait 5 
+TypeText tabKey
+TypeText Jenkins
+Wait 5
+MoveTo (Text:".ibus")
+RightClick (Text:".ibus")
+Click (Text:"Save target as")
+click item 1 of EveryImageLocation ("Adress bar")
+Wait 5
+click item 1 of EveryImageLocation ("Adress bar")
+TypeText global  Domain_Folder
+TypeText returnKey
+Wait 5
+TypeText returnKey
+LogSuccess "File copied successfully"
+Capturescreen
+

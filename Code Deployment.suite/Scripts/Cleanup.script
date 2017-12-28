@@ -1,0 +1,26 @@
+﻿//To close all browsers post deployment
+
+if ImageFound(20,"Deployer Icon") then
+	
+	RightClick "Deployer Icon"
+	
+	Click "Close Icon"
+	
+else
+	
+	if ImageFound(20,"FileExp") then 
+		
+		RightClick "FileExp"
+		
+		if ImageFound( 30,"Close Icon") then
+			Click "Close Icon"
+		else
+			Click "FileExp"
+			Wait 2
+			
+		end if
+		
+	end if
+	
+end if
+

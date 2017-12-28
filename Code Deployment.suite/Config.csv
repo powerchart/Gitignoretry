@@ -1,0 +1,3 @@
+global Ip_Address,global Domain_Name,global  Domain_Folder,global DomainArchive_Folder,global Solution,global Network_Username,global Network_Password,global Deployer_Password
+10.162.144.103,C:\Users\Public\Desktop\iBus Deployments\DWXQA_BBOXC\iBusSolutionDeployer,\\dwxqalabsrv\qa\DWXQA_BBOXC,\\dwxqalabsrv\qa\Archive\DWXQA_BBOXC-Archive,VitalsLink,CR017933,(Q.c6?p9x+!s,V%I=2k@d:
+10.162.144.103,C:\Users\Public\Desktop\iBus Deployments\DWXQA_BBOXD\iBusSolutionDeployer,\\dwxqalabsrv\qa\DWXQA_BBOXD,\\dwxqalabsrv\qa\Archive\DWXQA_BBOXD-Archive,iBus,CR017933,(Q.c6?p9x+!s,(Q.c6?p9x+!s

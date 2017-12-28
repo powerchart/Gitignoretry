@@ -1,0 +1,33 @@
+﻿
+Put file ResourcePath ("Config.csv")  into config_details
+Put item 1 of line 2 of config_details  into global Ip_Address
+Put item 2 of line 2 of config_details  into global Domain_Name
+Put item 3 of line 2 of config_details  into global  Domain_Folder
+Put item 4 of line 2 of config_details  into global DomainArchive_Folder
+Put item 5 of line 2 of config_details  into global Solution
+Put item 6 of line 2 of config_details  into global Network_Username
+Put DecodeText (item 7 of line 2 of config_details) into global Network_Password
+Put DecodeText (item 8 of line 2 of config_details) into global Deployer_Password
+put 11 into Count
+//Put "https://jenkins.cerner.com/dwx/job/AS046134_ScriptedDriverPatch/lastSuccessfulBuild/com.cerner.careaware.build$careaware-build-solution-drivers/" into global Jenkins
+Log global Ip_Address
+Log global Domain_Name
+Log global  Domain_Folder
+Log global DomainArchive_Folder
+Log global Solution
+Log global Network_Username
+Log global Deployer_Password
+//Log Jenkins
+
+Run "Connect_to_Remote_Desktop"
+Run "Cleanup"
+//Run "Folder_Operations_PreDeployment"
+Run "Code Deployment"
+Run "Cycling_Servers"
+Run "Cleanup"
+Run "Folder_Operations_Post Deployment"
+Run "Cleanup"
+
+Disconnect global Ip_Address
+
+

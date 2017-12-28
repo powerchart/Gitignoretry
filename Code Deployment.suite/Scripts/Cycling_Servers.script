@@ -1,0 +1,66 @@
+﻿
+//To Restart Containers post deployment
+
+Put ("ConfigurationContainer","AuthenticationContainer","AuthorizationContainer", "DeviceLifeCycleContainer", "LocationContainer", "PersonnelContainer", "VitalslinkContainer") into Mandatory_ContainersList
+
+put the number of items of Mandatory_ContainersList into maxi
+Click (Image:"Manage", WaitFor:180,text:"Manage")
+WaitFor 180.0, (Text:"Container")
+
+Repeat with each item maxi of Mandatory_ContainersList
+	
+	WaitFor 120.0, "Search box"
+	DoubleClick "Search box"
+	Typetext deleteKey
+	TypeText item repeatindex() of Mandatory_ContainersList
+	Wait 5
+	CaptureScreen 	
+	TypeText tabKey	
+	RightClick text: item repeatindex() of Mandatory_ContainersList, SearchRectangle: (305,121,569,356)
+	if ImageFound ("Restartprocess-Enabled") then
+		Click "Restartprocess-Enabled"
+		CaptureScreen
+		Wait 30
+		WaitFor 400.0, (Image:"Restart_successful", SearchRectangle: ((307,143,562,229)))		
+		LogSuccess "Restarting container is Successful"		
+		CaptureScreen
+		
+	else 
+		
+		LogWarning "Restart button is disabled"
+		if imageFound ("Startprocess-Enabled") then
+			Click "Startprocess-Enabled"
+			CaptureScreen
+			Wait 30
+			WaitFor 400.0, (Image:"Restart_successful", SearchRectangle: ((309,158,567,219)))
+			LogSuccess "Restart successful" 
+			CaptureScreen
+			
+		else 
+			
+			LogWarning "Start button is disabled"
+			if ImageFound ("Startprocesson-Enabled") then
+				Click "Startprocesson-Enabled"
+				Waitfor Text:"Activation Deamon"
+				Typetext pageDown
+				Typetext pageDown
+				TypeText "returnKey"
+				CaptureScreen
+				Wait 30
+				WaitFor 400.0, (Image:"Restart_successful", SearchRectangle: ((307,143,562,229)))
+				LogSuccess "Restart successful" 
+				CaptureScreen
+				
+			else
+				
+				LogWarning ( "Container on AD1 is down")
+				CaptureScreen 
+				
+			End if
+		End if
+		
+	End if
+	
+	
+End repeat
+

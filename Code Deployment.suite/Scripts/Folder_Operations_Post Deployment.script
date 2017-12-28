@@ -1,0 +1,64 @@
+﻿
+//To archive .ibus files post deployment
+
+//Accessing the Domain folders to rename to current date
+
+WaitFor 240.0, "FileExp"
+click "FileExp"
+WaitFor 240.0, "Adress bar.png"
+click item 2 of EveryImageLocation ("Adress bar")
+TypeText global  Domain_Folder
+TypeText returnkey
+Wait 5
+TypeText controlKey & "f"
+TypeText global Solution
+Wait 5
+WaitFor 120.0, (Text:"SNAPSHOT")
+Click (Text:"SNAPSHOT")
+RightClick (Text: "SNAPSHOT")
+Wait 5
+Click (Text:"Rename")
+TypeText controlKey & "c"
+Log RemoteClipboard(10)
+put RemoteClipboard() into RenametoCurrentdate
+Log RenametoCurrentdate
+log today
+Put RenametoCurrentdate & today into Renamed
+Log Renamed
+delete every occurrence of "SNAPSHOT" from Renamed
+typetext Renamed
+Wait 5
+LogSuccess "File renaming successful"
+CaptureScreen 
+TypeText returnkey
+//Archiving the files 
+
+TypeText controlKey & "f"
+TypeText global Solution
+Wait 5
+WaitFor 120.0, (Text:".ibus")
+//Click (Text:".ibus")
+RightClick (Text: ".ibus")
+Wait 5
+Click (Text:"Cut")
+Rightclick "FileExp"
+Wait 3
+Click (Text: "File Explorer")
+click item 2 of EveryImageLocation ("Adress bar")
+//click item 1 of EveryImageLocation ("Adress bar")
+//Wait 5
+//click item 2 of EveryImageLocation ("Adress bar")
+TypeText global DomainArchive_Folder
+TypeText returnkey
+Wait 5
+RightClick (Text:"Name")
+Click (Text:"Paste")
+Wait 3
+TypeText returnkey
+Wait 3
+LogSuccess "File archiving successful"
+CaptureScreen 
+
+
+
+

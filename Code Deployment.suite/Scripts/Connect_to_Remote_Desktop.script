@@ -1,0 +1,47 @@
+﻿
+//Script will connect to Remote Desktop of given IP Adress
+
+
+Click "Start"
+typetext "mstsc.exe"
+typetext returnkey
+WaitFor 240.0, (Text:"Connection")
+TypeText global Ip_Address
+Wait 5
+typetext returnkey
+Wait 5
+TypeText global Network_Password
+Wait 3
+TypeText returnkey
+WaitFor 240.0, ("RD-Yes", Text:"Yes")
+Click ("RD-Yes", Text:"Yes")
+WaitFor 240.0, ("RD Warning-OK", Text:"OK")
+Click ("RD Warning-OK", Text:"OK")
+Wait 5
+
+
+(*Click "ComputerName"
+typeText deleteKey
+Typetext "10.162.144.103"
+Wait 5
+typetext returnkey*)
+
+//WaitFor 240.0, (Text:"nect")
+
+//WaitFor 240.0, (Text:"Windows Security")
+
+(*if ImageFound(20, text: "WHQ") then
+	TypeText  global Network_Password
+	
+else
+endif
+*)
+(*Wait 5
+Click (Text:"Use another account")
+Wait 5
+TypeText global Network_Username
+Wait 5
+Typetext tabKey
+TypeText global Network_Password
+Wait 5*)
+
