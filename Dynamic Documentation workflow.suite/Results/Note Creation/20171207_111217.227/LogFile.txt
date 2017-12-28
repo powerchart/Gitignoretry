@@ -1,0 +1,6 @@
+﻿2017-12-07 11:12:17.243 -0600	START		Running Note Creation.script
+2017-12-07 11:12:17.374 -0600	Log		DD2017-12-0711:12 AM	13	on_note_creation	Note Creation.script
+2017-12-07 11:12:17.544 -0600	click	Click on Drop Down - Beside Add	at (277, 206)	17	on_note_creation	Note Creation.script
+2017-12-07 11:13:02.315 -0600	Exception	DynamicDocumentation - option	No Image Found On Screen: "DynamicDocumentation - option"	18	on_note_creation	Note Creation.script
+2017-12-07 11:13:02.415 -0600	EndTestCase		(Duration:"45.157", Errors:"1", Exceptions:"1", StartTime:"2017-12-07 11:12:17 -0600", Successes:"0", TestCase:"Note Creation.script", Warnings:"0")
+2017-12-07 11:13:02.431 -0600	ABORTED		Execution Time 0:00:45 Note Creation.script

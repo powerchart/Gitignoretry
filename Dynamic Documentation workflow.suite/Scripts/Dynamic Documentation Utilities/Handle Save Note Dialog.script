@@ -1,0 +1,29 @@
+﻿//Scripts enables to handle Save Note Dialog.
+
+
+to savenote notetype, title
+	//Entering the Note Type.
+	typetext notetype
+	
+	//Entering the title.
+	Click "Save_Title_TextBox"
+	typetext controlKey & a
+	typetext deleteKey
+	
+	TypeText title
+	
+	//Click OK.
+	Click "OK_SaveNote_Window"
+	wait 5.0
+end savenote
+
+
+to Only_Title title
+
+	//Entering the title.
+	Click "Save_Title_TextBox"
+	typetext controlKey & a
+	typetext deleteKey
+	
+	TypeText title
+end Only_Title

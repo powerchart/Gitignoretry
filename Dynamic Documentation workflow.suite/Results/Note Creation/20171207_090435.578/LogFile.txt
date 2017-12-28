@@ -1,0 +1,38 @@
+﻿2017-12-07 09:04:35.578 -0600	START		Running Note Creation.script
+2017-12-07 09:04:35.794 -0600	click	Click on Drop Down - Beside Add	at (277, 206)	10	on_note_creation	Note Creation.script
+2017-12-07 09:04:36.826 -0600	click	DynamicDocumentation - option	at (319, 250)	11	on_note_creation	Note Creation.script
+2017-12-07 09:04:39.829 -0600	waitfor	Ok Buttons	found at (1155, 937)	14	on_note_creation	Note Creation.script
+2017-12-07 09:04:40.046 -0600	doubleclick	AdmissionHP	at (672, 368)	17	on_note_creation	Note Creation.script
+2017-12-07 09:04:41.531 -0600	imagefound	OK_FailureMsg	found at (800, 590)	21	on_note_creation	Note Creation.script
+2017-12-07 09:04:41.731 -0600	click	OK_FailureMsg	at (800, 590)	22	on_note_creation	Note Creation.script
+2017-12-07 09:04:42.833 -0600	imagefound	OK_FailureMsg	found at (802, 590)	23	on_note_creation	Note Creation.script
+2017-12-07 09:04:43.034 -0600	click	OK_FailureMsg	at (802, 590)	22	on_note_creation	Note Creation.script
+2017-12-07 09:04:51.110 -0600	imagefound	OK_FailureMsg	Unable to Find Image OK_FailureMsg within 8.00 seconds	23	on_note_creation	Note Creation.script
+2017-12-07 09:04:55.051 -0600	moveto	(TEXT:"Chief Complaint")	at (300, 310)	28	on_note_creation	Note Creation.script
+2017-12-07 09:04:55.882 -0600	moveto	ChiefComplaint_2	at (389, 308)	29	on_note_creation	Note Creation.script
+2017-12-07 09:04:56.752 -0600	click	New_FreeText_new	at (391, 309)	30	on_note_creation	Note Creation.script
+2017-12-07 09:04:57.499 -0600	typetext		.	38	on_note_creation	Note Creation.script
+2017-12-07 09:04:58.769 -0600	doubleclick	(TEXT:"med")	at (284, 361)	39	on_note_creation	Note Creation.script
+2017-12-07 09:04:59.204 -0600	imagefound	Popup_OK2	found at (855, 611)	44	on_note_creation	Note Creation.script
+2017-12-07 09:04:59.655 -0600	click	Popup_OK2	at (855, 611)	45	on_note_creation	Note Creation.script
+2017-12-07 09:05:00.440 -0600	everyimagelocation	Delete Section	found 2 images	51	on_note_creation	Note Creation.script
+2017-12-07 09:05:00.455 -0600	Log		((412,309),(880,324))	51	on_note_creation	Note Creation.script
+2017-12-07 09:05:00.505 -0600	everyimagelocation	Delete Section	found 2 images	52	on_note_creation	Note Creation.script
+2017-12-07 09:05:00.624 -0600	click		at (880, 324)	52	on_note_creation	Note Creation.script
+2017-12-07 09:05:05.535 -0600	moveto	(TEXT:"Chief Complaint")	at (300, 310)	59	on_note_creation	Note Creation.script
+2017-12-07 09:05:06.366 -0600	moveto	ChiefComplaint_2	at (389, 308)	60	on_note_creation	Note Creation.script
+2017-12-07 09:05:07.234 -0600	click	New_FreeText_new	at (391, 309)	61	on_note_creation	Note Creation.script
+2017-12-07 09:05:09.151 -0600	typetext		Chief Complaint free text to test	64	on_note_creation	Note Creation.script
+2017-12-07 09:05:10.069 -0600	click	Save_Icon	at (1045, 935)	67	on_note_creation	Note Creation.script
+2017-12-07 09:05:11.470 -0600	typetext		Progress Note-Nurse	70	on_note_creation	Note Creation.script
+2017-12-07 09:05:12.403 -0600	click	Save_Title_TextBox	at (568, 492)	73	on_note_creation	Note Creation.script
+2017-12-07 09:05:13.171 -0600	typetext		[controlKey]a	74	on_note_creation	Note Creation.script
+2017-12-07 09:05:13.919 -0600	typetext		[deleteKey]	75	on_note_creation	Note Creation.script
+2017-12-07 09:05:14.773 -0600	typetext		DD5	77	on_note_creation	Note Creation.script
+2017-12-07 09:05:15.675 -0600	click	OK_SaveNote_Window	at (892, 587)	80	on_note_creation	Note Creation.script
+2017-12-07 09:05:20.912 -0600	click	Cancel button	at (1229, 936)	84	on_note_creation	Note Creation.script
+2017-12-07 09:05:23.068 -0600	imagefound	Preview_exists	Unable to Find Image Preview_exists within 2.00 seconds	88	on_note_creation	Note Creation.script
+2017-12-07 09:05:31.011 -0600	LogWarning		OCR Text read in search rect: History of Present Illness\nReview of Systems\nPhysical Exam\nVitals & Measurements\nAssessment/Plan\nProblem List/Past Medical History\nChronic\nNo chronic problems\nHistorical\nNo historical problems\nProcedure/Surqical History\nMedications\nAllergies\nglyBURIDE\nleflunomide\nSocial History\nFamily History\nImmunizations\nLab Results\nDiagnostic Results
+2017-12-07 09:05:51.020 -0600	Exception	(TEXT:"DD5")	No Text Found On Screen: "(TEXT:"DD5")"	93	on_note_creation	Note Creation.script
+2017-12-07 09:05:51.089 -0600	EndTestCase		(Duration:"75.511", Errors:"1", Exceptions:"1", StartTime:"2017-12-07 09:04:35 -0600", Successes:"0", TestCase:"Note Creation.script", Warnings:"1")
+2017-12-07 09:05:51.242 -0600	FAILURE	Screen_Error.png	Image Not Found doubleclick Error - No Text Found On Screen: "(TEXT:"DD5")"  Restricted Search Rectangle ((232,295),(1265,821))\n -- Execution Time 0:01:16 Note Creation.script

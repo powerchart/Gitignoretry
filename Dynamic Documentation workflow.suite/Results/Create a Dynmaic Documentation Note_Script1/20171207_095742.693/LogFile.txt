@@ -1,0 +1,4 @@
+﻿2017-12-07 09:57:42.693 -0600	START		Running Create a Dynmaic Documentation Note.script
+2017-12-07 09:57:42.724 -0600	Log		DD2017-12-0709:57 AM	3	on_create_a_dynmaic_documentation_note	Create a Dynmaic Documentation Note.script
+2017-12-07 09:57:42.809 -0600	EndTestCase		(Duration:"0.116", Errors:"1", Exceptions:"0", StartTime:"2017-12-07 09:57:42 -0600", Successes:"0", TestCase:"Create a Dynmaic Documentation Note.script", Warnings:"0")
+2017-12-07 09:57:42.993 -0600	FAILURE	Screen_Error.png	SenseTalk Compiler Exception in only_title:\nWarning at line 9: Warning - Non-matching handler name: savenote -- Execution Time 0:00:00 Create a Dynmaic Documentation Note.script

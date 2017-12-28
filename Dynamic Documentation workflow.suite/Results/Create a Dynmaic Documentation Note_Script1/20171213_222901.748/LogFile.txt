@@ -1,0 +1,4 @@
+﻿2017-12-13 22:29:01.755 -0600	START		Running Create a Dynmaic Documentation Note_Script1.script
+2017-12-13 22:29:12.283 -0600	Exception	Click on Drop Down - Beside Add	No Image Found On Screen: "Click on Drop Down - Beside Add"	3	on_new_admissionnotehp	Dynamic Documentation Utilities/Creating a New Note.script
+2017-12-13 22:29:12.470 -0600	EndTestCase		(Duration:"10.704", Errors:"1", Exceptions:"1", StartTime:"2017-12-13 22:29:01 -0600", Successes:"0", TestCase:"Create a Dynmaic Documentation Note_Script1.script", Warnings:"0")
+2017-12-13 22:29:12.472 -0600	ABORTED		Execution Time 0:00:11 Create a Dynmaic Documentation Note_Script1.script

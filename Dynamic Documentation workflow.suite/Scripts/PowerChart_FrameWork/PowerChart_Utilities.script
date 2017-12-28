@@ -1,0 +1,6 @@
+﻿//Selecting a tab in TOC in Patient Chart.
+
+to SelectApplication Application
+	click text:Application,searchindex:((2,160,217,973))
+	wait 4
+end SelectApplication

@@ -1,0 +1,38 @@
+﻿2017-12-07 09:06:07.208 -0600	START		Running Note Creation.script
+2017-12-07 09:06:07.409 -0600	click	Click on Drop Down - Beside Add	at (277, 206)	10	on_note_creation	Note Creation.script
+2017-12-07 09:06:08.379 -0600	click	DynamicDocumentation - option	at (319, 250)	11	on_note_creation	Note Creation.script
+2017-12-07 09:06:12.545 -0600	waitfor	Ok Buttons	found at (1155, 937)	14	on_note_creation	Note Creation.script
+2017-12-07 09:06:12.783 -0600	doubleclick	AdmissionHP	at (672, 368)	17	on_note_creation	Note Creation.script
+2017-12-07 09:06:13.932 -0600	imagefound	OK_FailureMsg	found at (800, 590)	21	on_note_creation	Note Creation.script
+2017-12-07 09:06:14.186 -0600	click	OK_FailureMsg	at (800, 590)	22	on_note_creation	Note Creation.script
+2017-12-07 09:06:15.734 -0600	imagefound	OK_FailureMsg	found at (802, 590)	23	on_note_creation	Note Creation.script
+2017-12-07 09:06:16.018 -0600	click	OK_FailureMsg	at (802, 590)	22	on_note_creation	Note Creation.script
+2017-12-07 09:06:24.109 -0600	imagefound	OK_FailureMsg	Unable to Find Image OK_FailureMsg within 8.00 seconds	23	on_note_creation	Note Creation.script
+2017-12-07 09:06:28.151 -0600	moveto	(TEXT:"Chief Complaint")	at (300, 310)	28	on_note_creation	Note Creation.script
+2017-12-07 09:06:29.006 -0600	moveto	ChiefComplaint_2	at (389, 308)	29	on_note_creation	Note Creation.script
+2017-12-07 09:06:29.876 -0600	click	New_FreeText_new	at (391, 309)	30	on_note_creation	Note Creation.script
+2017-12-07 09:06:30.623 -0600	typetext		.	38	on_note_creation	Note Creation.script
+2017-12-07 09:06:31.879 -0600	doubleclick	(TEXT:"med")	at (284, 361)	39	on_note_creation	Note Creation.script
+2017-12-07 09:06:32.341 -0600	imagefound	Popup_OK2	found at (855, 611)	44	on_note_creation	Note Creation.script
+2017-12-07 09:06:32.779 -0600	click	Popup_OK2	at (855, 611)	45	on_note_creation	Note Creation.script
+2017-12-07 09:06:33.543 -0600	everyimagelocation	Delete Section	found 2 images	51	on_note_creation	Note Creation.script
+2017-12-07 09:06:33.543 -0600	Log		((412,309),(880,324))	51	on_note_creation	Note Creation.script
+2017-12-07 09:06:33.580 -0600	everyimagelocation	Delete Section	found 2 images	52	on_note_creation	Note Creation.script
+2017-12-07 09:06:33.743 -0600	click		at (880, 324)	52	on_note_creation	Note Creation.script
+2017-12-07 09:06:38.554 -0600	moveto	(TEXT:"Chief Complaint")	at (300, 310)	59	on_note_creation	Note Creation.script
+2017-12-07 09:06:39.392 -0600	moveto	ChiefComplaint_2	at (389, 308)	60	on_note_creation	Note Creation.script
+2017-12-07 09:06:40.255 -0600	click	New_FreeText_new	at (391, 309)	61	on_note_creation	Note Creation.script
+2017-12-07 09:06:42.172 -0600	typetext		Chief Complaint free text to test	64	on_note_creation	Note Creation.script
+2017-12-07 09:06:43.157 -0600	click	Save_Icon	at (1045, 935)	67	on_note_creation	Note Creation.script
+2017-12-07 09:06:44.558 -0600	typetext		Progress Note-Nurse	70	on_note_creation	Note Creation.script
+2017-12-07 09:06:45.528 -0600	click	Save_Title_TextBox	at (568, 492)	73	on_note_creation	Note Creation.script
+2017-12-07 09:06:46.298 -0600	typetext		[controlKey]a	74	on_note_creation	Note Creation.script
+2017-12-07 09:06:47.045 -0600	typetext		[deleteKey]	75	on_note_creation	Note Creation.script
+2017-12-07 09:06:47.899 -0600	typetext		DD5	77	on_note_creation	Note Creation.script
+2017-12-07 09:06:48.800 -0600	click	OK_SaveNote_Window	at (892, 587)	80	on_note_creation	Note Creation.script
+2017-12-07 09:06:54.054 -0600	click	Cancel button	at (1229, 936)	84	on_note_creation	Note Creation.script
+2017-12-07 09:06:56.271 -0600	imagefound	Preview_exists	Unable to Find Image Preview_exists within 2.00 seconds	88	on_note_creation	Note Creation.script
+2017-12-07 09:06:58.814 -0600	doubleclick	(TEXT:"DD5")	at (396, 328)	93	on_note_creation	Note Creation.script
+2017-12-07 09:06:58.829 -0600	Exception	ChiefComplaint_1	Could Not Open Image: ChiefComplaint_1	94	on_note_creation	Note Creation.script
+2017-12-07 09:06:58.914 -0600	EndTestCase		(Duration:"51.706", Errors:"1", Exceptions:"1", StartTime:"2017-12-07 09:06:07 -0600", Successes:"0", TestCase:"Note Creation.script", Warnings:"0")
+2017-12-07 09:06:59.076 -0600	FAILURE	Screen_Error.png	File Not Found waitfor Error - Could Not Open Image: ChiefComplaint_1 -- Execution Time 0:00:51 Note Creation.script

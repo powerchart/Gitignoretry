@@ -1,0 +1,19 @@
+﻿2017-12-06 15:47:51.339 -0600	START		Running Note Creation.script
+2017-12-06 15:47:51.609 -0600	click	Click on Drop Down - Beside Add	at (277, 206)	10	on_note_creation	Note Creation.script
+2017-12-06 15:47:52.610 -0600	click	DynamicDocumentation - option	at (319, 250)	11	on_note_creation	Note Creation.script
+2017-12-06 15:47:56.046 -0600	waitfor	Ok Buttons	found at (1155, 937)	14	on_note_creation	Note Creation.script
+2017-12-06 15:47:56.284 -0600	doubleclick	AdmissionHP	at (672, 368)	17	on_note_creation	Note Creation.script
+2017-12-06 15:47:56.316 -0600	imagefound	Ok Buttons	found at (1155, 937)	21	on_note_creation	Note Creation.script
+2017-12-06 15:47:57.285 -0600	click	Ok Buttons	at (1155, 937)	22	on_note_creation	Note Creation.script
+2017-12-06 15:47:57.934 -0600	imagefound	Ok Buttons	found at (799, 590)	23	on_note_creation	Note Creation.script
+2017-12-06 15:47:58.288 -0600	click	Ok Buttons	at (799, 590)	22	on_note_creation	Note Creation.script
+2017-12-06 15:47:59.452 -0600	imagefound	Ok Buttons	found at (801, 590)	23	on_note_creation	Note Creation.script
+2017-12-06 15:47:59.821 -0600	click	Ok Buttons	at (801, 590)	22	on_note_creation	Note Creation.script
+2017-12-06 15:48:07.954 -0600	imagefound	Ok Buttons	Unable to Find Image Ok Buttons within 8.00 seconds	23	on_note_creation	Note Creation.script
+2017-12-06 15:48:13.036 -0600	moveto	ChiefComplaint_2	at (389, 308)	26	on_note_creation	Note Creation.script
+2017-12-06 15:48:16.574 -0600	click	ChiefComplaint_2	at (389, 308)	27	on_note_creation	Note Creation.script
+2017-12-06 15:48:19.424 -0600	typetext		.	31	on_note_creation	Note Creation.script
+2017-12-06 15:48:27.403 -0600	LogWarning		OCR Text read in search rect: Tahoma\nSize -\nChief Complaint\nHistory of Present Illness\nReview of Systems\nPhysical Exam\nVitals & Measurements\nAssessment/Plan
+2017-12-06 15:48:38.933 -0600	Exception	(TEXT:"med")	No Text Found On Screen: "(TEXT:"med")"	32	on_note_creation	Note Creation.script
+2017-12-06 15:48:39.102 -0600	EndTestCase		(Duration:"47.763", Errors:"1", Exceptions:"1", StartTime:"2017-12-06 15:47:51 -0600", Successes:"0", TestCase:"Note Creation.script", Warnings:"1")
+2017-12-06 15:48:39.102 -0600	ABORTED		Execution Time 0:00:48 Note Creation.script

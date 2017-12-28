@@ -1,0 +1,147 @@
+﻿(**************************************
+1. Create a DD Note.
+2. Type text in Chiefcomplaint Section.
+3. Insert the auto text.
+3. Save the Note.
+4. Open the note and validate the text is present. 
+**********************************)
+
+//Variable Declaration
+
+//Declare the title of the Note
+set title to DD&today&Time
+log title
+
+
+//Clicking on Add button and selecting Dynamic Documentation option
+Click "Click on Drop Down - Beside Add"
+Click (Image:"DynamicDocumentation - option", WaitFor:6)
+
+//wait for new note to load fully.
+WaitFor 10.0,  "Ok Buttons"
+
+//Selecting the Template
+DoubleClick (Image:"AdmissionHP", WaitFor:8.4)
+
+//wait 10
+//Click on OK message untill the error msg popup closed.
+Repeat while ImageFound(8.0, "OK_FailureMsg")
+	click  "OK_FailureMsg"
+End repeat
+
+//clicking on chiefcomplaint section and initating the free text.
+//moveto "ChiefComplaint_2"
+
+moveto Text:"Chief Complaint"
+moveto "ChiefComplaint_2"
+click "New_FreeText_new"
+
+//moveto "ChiefComplaint_2"
+//Click (Image:"New_FreeText_new", WaitFor:84)
+//click "ChiefComplaint_2"
+
+
+//Inserting Auto Text
+typetext "."
+doubleclick text:"med",searchRectangle:((235,255,588,593))
+
+//log ReadText((259,356,323,420))
+//Auto Text conversion message is displayed click OK.
+
+if ImageFound(5,"Popup_OK2" )
+	click "Popup_OK2"
+end if
+
+
+//Deleting the chiefcomplaint free text section.
+
+log EveryImageLocation("Delete Section")
+click item 2 of EveryImageLocation("Delete Section")
+//click "Delete Section"
+
+
+//clicking on chiefcomplaint section and initating the free text.
+//Click "ChiefComplaint_2"
+//Click "ChiefComplaint_2"
+moveto Text:"Chief Complaint"
+moveto "ChiefComplaint_2"
+click "New_FreeText_new"
+
+//Entering some text in chief complaint section.
+typetext "Chief Complaint free text to test"
+
+//saving the note.
+Click "Save_Icon"
+
+//Entering the Note Type.
+typetext "Progress Note-Nurse"
+
+//Entering the title.
+Click "Save_Title_TextBox"
+typetext controlKey & a
+typetext deleteKey
+
+TypeText title
+
+//Click OK.
+Click "OK_SaveNote_Window"
+wait 5.0
+
+//Close the note by clicking cancel.
+Click "Cancel button"
+
+//clicking on Preview 
+
+if ImageFound(2.0, "Preview_exists")
+	click text:"Preview",searchRectangle:(414,171,745,242)
+end if
+
+click Minutes_ago
+wait 2
+
+//Selecting the note.
+log title
+doubleclick text:title, searchrectangle:((232,295,1265,821))
+waitfor 8.0, "ChiefComplaint_2"
+
+//Reading the text and validating the text is available.
+
+put ReadText((225,189,1266,913)) into Temp
+log temp
+if temp contains "Chief Complaint free text to test"
+	logsuccess "Text is present"
+	CaptureScreen
+else
+	LogWarning "Text is not available"
+end if
+
+//closing the note.
+click "Cancel button"
+
+(*
+
+WaitFor 8.0, "AssessmentPlan", "AdmissionHP"
+
+Click "image0001"
+
+Click "ChiefComplaint__Icon"
+
+//Click "ChiefComplaint_1"
+typetext "Chief Complaint"
+//Click (Image:"ChiefComplaint_3", WaitFor:41)
+
+
+//
+if ImageFound("ChiefComplaint__Icon")
+	
+	Log "sucesss"
+	
+Else
+	LogWarning "image not found"
+	
+End if
+if imagefound (", (Image:"ChiefComplaint__Icon", WaitFor:113), "
+end if
+//trying section.
+
+click "OK" *)

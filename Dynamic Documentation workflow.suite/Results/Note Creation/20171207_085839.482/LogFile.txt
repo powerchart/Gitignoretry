@@ -1,0 +1,21 @@
+﻿2017-12-07 08:58:39.482 -0600	START		Running Note Creation.script
+2017-12-07 08:58:39.729 -0600	click	Click on Drop Down - Beside Add	at (277, 206)	10	on_note_creation	Note Creation.script
+2017-12-07 08:58:40.729 -0600	click	DynamicDocumentation - option	at (319, 250)	11	on_note_creation	Note Creation.script
+2017-12-07 08:58:43.300 -0600	waitfor	Ok Buttons	found at (1155, 937)	14	on_note_creation	Note Creation.script
+2017-12-07 08:58:43.547 -0600	doubleclick	AdmissionHP	at (672, 368)	17	on_note_creation	Note Creation.script
+2017-12-07 08:58:45.502 -0600	imagefound	OK_FailureMsg	found at (800, 590)	21	on_note_creation	Note Creation.script
+2017-12-07 08:58:45.733 -0600	click	OK_FailureMsg	at (800, 590)	22	on_note_creation	Note Creation.script
+2017-12-07 08:58:46.520 -0600	imagefound	OK_FailureMsg	found at (802, 590)	23	on_note_creation	Note Creation.script
+2017-12-07 08:58:46.704 -0600	click	OK_FailureMsg	at (802, 590)	22	on_note_creation	Note Creation.script
+2017-12-07 08:58:54.773 -0600	imagefound	OK_FailureMsg	Unable to Find Image OK_FailureMsg within 8.00 seconds	23	on_note_creation	Note Creation.script
+2017-12-07 08:58:58.699 -0600	moveto	(TEXT:"Chief Complaint")	at (300, 310)	28	on_note_creation	Note Creation.script
+2017-12-07 08:58:59.500 -0600	moveto	ChiefComplaint_2	at (389, 308)	29	on_note_creation	Note Creation.script
+2017-12-07 08:59:00.354 -0600	click	New_FreeText_new	at (391, 309)	30	on_note_creation	Note Creation.script
+2017-12-07 08:59:01.102 -0600	typetext		.	38	on_note_creation	Note Creation.script
+2017-12-07 08:59:02.326 -0600	doubleclick	(TEXT:"med")	at (284, 361)	39	on_note_creation	Note Creation.script
+2017-12-07 08:59:02.709 -0600	imagefound	Popup_OK2	found at (855, 611)	44	on_note_creation	Note Creation.script
+2017-12-07 08:59:03.225 -0600	click	Popup_OK2	at (855, 611)	45	on_note_creation	Note Creation.script
+2017-12-07 08:59:04.089 -0600	click	Delete Section	at (412, 309)	50	on_note_creation	Note Creation.script
+2017-12-07 08:59:44.646 -0600	Exception		Searching For Image: OCR Error: Operation was aborted	56	on_note_creation	Note Creation.script
+2017-12-07 08:59:44.762 -0600	EndTestCase		(Duration:"65.28", Errors:"1", Exceptions:"1", StartTime:"2017-12-07 08:58:39 -0600", Successes:"0", TestCase:"Note Creation.script", Warnings:"0")
+2017-12-07 08:59:44.762 -0600	ABORTED		Execution Time 0:01:05 Note Creation.script

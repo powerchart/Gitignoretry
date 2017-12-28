@@ -1,0 +1,15 @@
+﻿2017-12-12 22:02:47.312 -0600	START		Running Master_Script.script
+2017-12-12 22:02:47.608 -0600	click	Click on Drop Down - Beside Add	at (277, 206)	3	on_new_admissionnotehp	Dynamic Documentation Utilities/Creating a New Note.script
+2017-12-12 22:02:48.620 -0600	click	DynamicDocumentation - option	at (319, 250)	4	on_new_admissionnotehp	Dynamic Documentation Utilities/Creating a New Note.script
+2017-12-12 22:02:51.207 -0600	waitfor	Ok Buttons	found at (1155, 937)	7	on_new_admissionnotehp	Dynamic Documentation Utilities/Creating a New Note.script
+2017-12-12 22:02:51.511 -0600	doubleclick	AdmissionHP	at (672, 368)	10	on_new_admissionnotehp	Dynamic Documentation Utilities/Creating a New Note.script
+2017-12-12 22:02:54.543 -0600	imagefound	OK_FailureMsg	found at (800, 590)	14	on_new_admissionnotehp	Dynamic Documentation Utilities/Creating a New Note.script
+2017-12-12 22:02:54.702 -0600	click	OK_FailureMsg	at (800, 590)	15	on_new_admissionnotehp	Dynamic Documentation Utilities/Creating a New Note.script
+2017-12-12 22:02:54.723 -0600	imagefound	OK_FailureMsg	found at (800, 590)	16	on_new_admissionnotehp	Dynamic Documentation Utilities/Creating a New Note.script
+2017-12-12 22:02:55.632 -0600	click	OK_FailureMsg	at (820, 608)	15	on_new_admissionnotehp	Dynamic Documentation Utilities/Creating a New Note.script
+2017-12-12 22:02:55.670 -0600	imagefound	OK_FailureMsg	found at (820, 608)	16	on_new_admissionnotehp	Dynamic Documentation Utilities/Creating a New Note.script
+2017-12-12 22:02:56.484 -0600	click	OK_FailureMsg	at (800, 590)	15	on_new_admissionnotehp	Dynamic Documentation Utilities/Creating a New Note.script
+2017-12-12 22:02:56.507 -0600	imagefound	OK_FailureMsg	found at (800, 590)	16	on_new_admissionnotehp	Dynamic Documentation Utilities/Creating a New Note.script
+2017-12-12 22:03:20.032 -0600	Exception	OK_FailureMsg	No Image Found On Screen: "OK_FailureMsg"	15	on_new_admissionnotehp	Dynamic Documentation Utilities/Creating a New Note.script
+2017-12-12 22:03:20.194 -0600	EndTestCase		(Duration:"32.875", Errors:"1", Exceptions:"1", StartTime:"2017-12-12 22:02:47 -0600", Successes:"0", TestCase:"Master_Script.script", Warnings:"0")
+2017-12-12 22:03:20.321 -0600	FAILURE	Screen_Error.png	Image Not Found click Error - No Image Found On Screen: "OK_FailureMsg" -- Execution Time 0:00:33 Master_Script.script

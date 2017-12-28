@@ -1,0 +1,4 @@
+﻿repeat 3 times
+	Run "Create a Dynmaic Documentation Note_Script1"
+	wait 2
+end repeat

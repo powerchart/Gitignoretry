@@ -1,0 +1,6 @@
+﻿2017-12-06 09:53:27.846 -0600	START		Running Note Creation.script
+2017-12-06 09:53:28.132 -0600	click	Click on Drop Down - Beside Add	at (277, 206)	2	on_note_creation	Note Creation.script
+2017-12-06 09:53:29.117 -0600	click	DynamicDocumentation - option	at (319, 250)	3	on_note_creation	Note Creation.script
+2017-12-06 09:53:51.432 -0600	Exception	Ok button_New Note	Unable To Find Any Image On Screen "Ok button_New Note" within 8.00 seconds	6	on_note_creation	Note Creation.script
+2017-12-06 09:53:51.547 -0600	EndTestCase		(Duration:"23.685", Errors:"1", Exceptions:"1", StartTime:"2017-12-06 09:53:27 -0600", Successes:"0", TestCase:"Note Creation.script", Warnings:"0")
+2017-12-06 09:53:51.679 -0600	FAILURE	Screen_Error.png	Image Not Found waitfor Error - Unable To Find Any Image On Screen "Ok button_New Note" within 8.00 seconds -- Execution Time 0:00:24 Note Creation.script

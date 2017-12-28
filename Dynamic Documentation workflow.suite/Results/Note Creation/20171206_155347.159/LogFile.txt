@@ -1,0 +1,23 @@
+﻿2017-12-06 15:53:47.159 -0600	START		Running Note Creation.script
+2017-12-06 15:53:47.460 -0600	click	Click on Drop Down - Beside Add	at (277, 206)	10	on_note_creation	Note Creation.script
+2017-12-06 15:53:48.561 -0600	click	DynamicDocumentation - option	at (319, 250)	11	on_note_creation	Note Creation.script
+2017-12-06 15:53:52.344 -0600	waitfor	Ok Buttons	found at (1155, 937)	14	on_note_creation	Note Creation.script
+2017-12-06 15:53:52.583 -0600	doubleclick	AdmissionHP	at (672, 368)	17	on_note_creation	Note Creation.script
+2017-12-06 15:53:52.637 -0600	imagefound	Ok Buttons	found at (1155, 937)	21	on_note_creation	Note Creation.script
+2017-12-06 15:53:53.500 -0600	click	Ok Buttons	at (1155, 937)	22	on_note_creation	Note Creation.script
+2017-12-06 15:53:53.538 -0600	imagefound	Ok Buttons	found at (1155, 937)	23	on_note_creation	Note Creation.script
+2017-12-06 15:53:55.041 -0600	click	Ok Buttons	at (799, 590)	22	on_note_creation	Note Creation.script
+2017-12-06 15:53:56.705 -0600	imagefound	Ok Buttons	found at (801, 590)	23	on_note_creation	Note Creation.script
+2017-12-06 15:53:56.975 -0600	click	Ok Buttons	at (801, 590)	22	on_note_creation	Note Creation.script
+2017-12-06 15:54:05.153 -0600	imagefound	Ok Buttons	Unable to Find Image Ok Buttons within 8.00 seconds	23	on_note_creation	Note Creation.script
+2017-12-06 15:54:09.211 -0600	moveto	(TEXT:"Chief Complaint")	at (300, 310)	28	on_note_creation	Note Creation.script
+2017-12-06 15:54:10.065 -0600	moveto	ChiefComplaint_2	at (389, 308)	30	on_note_creation	Note Creation.script
+2017-12-06 15:54:10.965 -0600	click	ChiefComplaint_2	at (389, 308)	31	on_note_creation	Note Creation.script
+2017-12-06 15:54:38.172 -0600	typetext		.	35	on_note_creation	Note Creation.script
+2017-12-06 15:54:39.544 -0600	doubleclick	(TEXT:"med")	at (284, 361)	36	on_note_creation	Note Creation.script
+2017-12-06 15:54:40.423 -0600	readtext		(259,356,323,420)
+2017-12-06 15:54:40.425 -0600	Log		.med\na\n.tabtest\nleview of S	38	on_note_creation	Note Creation.script
+2017-12-06 15:54:45.699 -0600	imagefound	Ok Buttons	Unable to Find Image Ok Buttons within 5.00 seconds	41	on_note_creation	Note Creation.script
+2017-12-06 15:55:08.655 -0600	Exception	Delete Section	No Image Found On Screen: "Delete Section"	47	on_note_creation	Note Creation.script
+2017-12-06 15:55:08.817 -0600	EndTestCase		(Duration:"81.642", Errors:"1", Exceptions:"1", StartTime:"2017-12-06 15:53:47 -0600", Successes:"0", TestCase:"Note Creation.script", Warnings:"0")
+2017-12-06 15:55:09.016 -0600	FAILURE	Screen_Error.png	Image Not Found click Error - No Image Found On Screen: "Delete Section" -- Execution Time 0:01:21 Note Creation.script

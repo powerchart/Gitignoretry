@@ -1,0 +1,46 @@
+﻿2017-12-12 13:36:53.168 -0600	START		Running Note Creation.script
+2017-12-12 13:36:53.284 -0600	Log		DD2017-12-1201:36 PM	13	on_note_creation	Note Creation.script
+2017-12-12 13:36:53.384 -0600	click	Click on Drop Down - Beside Add	at (277, 206)	17	on_note_creation	Note Creation.script
+2017-12-12 13:36:54.318 -0600	click	DynamicDocumentation - option	at (319, 250)	18	on_note_creation	Note Creation.script
+2017-12-12 13:36:59.008 -0600	waitfor	Ok Buttons	found at (1155, 937)	21	on_note_creation	Note Creation.script
+2017-12-12 13:36:59.191 -0600	doubleclick	AdmissionHP	at (672, 368)	24	on_note_creation	Note Creation.script
+2017-12-12 13:37:01.028 -0600	imagefound	OK_FailureMsg	found at (800, 590)	28	on_note_creation	Note Creation.script
+2017-12-12 13:37:01.265 -0600	click	OK_FailureMsg	at (800, 590)	29	on_note_creation	Note Creation.script
+2017-12-12 13:37:04.479 -0600	imagefound	OK_FailureMsg	found at (802, 590)	30	on_note_creation	Note Creation.script
+2017-12-12 13:37:04.605 -0600	click	OK_FailureMsg	at (802, 590)	29	on_note_creation	Note Creation.script
+2017-12-12 13:37:12.667 -0600	imagefound	OK_FailureMsg	Unable to Find Image OK_FailureMsg within 8.00 seconds	30	on_note_creation	Note Creation.script
+2017-12-12 13:37:17.076 -0600	moveto	(TEXT:"Chief Complaint")	at (300, 310)	35	on_note_creation	Note Creation.script
+2017-12-12 13:37:17.841 -0600	moveto	ChiefComplaint_2	at (389, 308)	36	on_note_creation	Note Creation.script
+2017-12-12 13:37:18.677 -0600	click	New_FreeText_new	at (391, 309)	37	on_note_creation	Note Creation.script
+2017-12-12 13:37:19.390 -0600	typetext		.	45	on_note_creation	Note Creation.script
+2017-12-12 13:37:20.682 -0600	doubleclick	(TEXT:"med")	at (284, 361)	46	on_note_creation	Note Creation.script
+2017-12-12 13:37:21.060 -0600	imagefound	Popup_OK2	found at (855, 611)	51	on_note_creation	Note Creation.script
+2017-12-12 13:37:21.511 -0600	click	Popup_OK2	at (855, 611)	52	on_note_creation	Note Creation.script
+2017-12-12 13:37:22.285 -0600	everyimagelocation	Delete Section	found 1 images	58	on_note_creation	Note Creation.script
+2017-12-12 13:37:22.287 -0600	Log		((412,309))	58	on_note_creation	Note Creation.script
+2017-12-12 13:37:22.333 -0600	everyimagelocation	Delete Section	found 1 images	59	on_note_creation	Note Creation.script
+2017-12-12 13:37:22.449 -0600	click		at current mouse point (855, 611)	59	on_note_creation	Note Creation.script
+2017-12-12 13:37:28.566 -0600	moveto	(TEXT:"Chief Complaint")	at (300, 309)	66	on_note_creation	Note Creation.script
+2017-12-12 13:37:29.328 -0600	moveto	ChiefComplaint_2	at (389, 308)	67	on_note_creation	Note Creation.script
+2017-12-12 13:37:30.122 -0600	click	New_FreeText_new	at (391, 309)	68	on_note_creation	Note Creation.script
+2017-12-12 13:37:31.255 -0600	typetext		Chief Complaint free text to test	71	on_note_creation	Note Creation.script
+2017-12-12 13:37:32.209 -0600	click	Save_Icon	at (1045, 935)	74	on_note_creation	Note Creation.script
+2017-12-12 13:37:33.165 -0600	typetext		Progress Note-Nurse	77	on_note_creation	Note Creation.script
+2017-12-12 13:37:34.083 -0600	click	Save_Title_TextBox	at (568, 492)	80	on_note_creation	Note Creation.script
+2017-12-12 13:37:34.809 -0600	typetext		[controlKey]a	81	on_note_creation	Note Creation.script
+2017-12-12 13:37:35.525 -0600	typetext		[deleteKey]	82	on_note_creation	Note Creation.script
+2017-12-12 13:37:36.494 -0600	typetext		DD2017-12-1201:36 PM	84	on_note_creation	Note Creation.script
+2017-12-12 13:37:37.356 -0600	click	OK_SaveNote_Window	at (892, 587)	87	on_note_creation	Note Creation.script
+2017-12-12 13:37:42.589 -0600	click	Cancel button	at (1229, 936)	91	on_note_creation	Note Creation.script
+2017-12-12 13:37:44.797 -0600	imagefound	Preview_exists	Unable to Find Image Preview_exists within 2.00 seconds	95	on_note_creation	Note Creation.script
+2017-12-12 13:37:45.020 -0600	click	Minutes_ago	at (1243, 174)	99	on_note_creation	Note Creation.script
+2017-12-12 13:37:47.022 -0600	Log		DD2017-12-1201:36 PM	103	on_note_creation	Note Creation.script
+2017-12-12 13:37:49.555 -0600	doubleclick	(TEXT:"DD2017-12-1201:36 PM")	at (442, 328)	104	on_note_creation	Note Creation.script
+2017-12-12 13:37:53.351 -0600	waitfor	ChiefComplaint_2	found at (389, 308)	105	on_note_creation	Note Creation.script
+2017-12-12 13:37:54.855 -0600	readtext		(225,189,1266,913)
+2017-12-12 13:37:54.857 -0600	Log		List\nDD2017-12-1201:36 PM X\nTahoma\n-1\nlaze -||\nB / U efc\t1 1 I i\n\n\nChief Complaint\nMedication List\nActive Medications\nOrdered\namlodipine: 20 mg, Buccal, Once, Days 1.\namlodipine: 20 mg, Buccal, Once, Days 2.\namlodipine: 20 mg, Buccal, Once, Days 3.\ncaffeine: 200 mg, Oral.\ncodeine: 60 mg, IM, PSO_Hybrid.\ncodeine: 15 mg, Oral, BID, PRN: pain.\ncodeine: 15 mg, Oral, BID.\ncodeine: 15 mg, Oral, PSO_Hybrid, PRN: cough.\nfexofenadine: 29 mg, Buccal.\nfexofenadine: 20 mg, Buccal, BID.\nPSO_Alprazolam: 20 mg, Buccal, Days 1.\nPSO_Alprazolam: 20 mg, Buccal, Days 2.\nPSO_Alprazolam: 20 mg, Buccal, Days 3.\nPrescribed\nalprazolam: 100 mg, Oral, BID, for 5 day(s), 10, 20 Refill(s).\nclozapine: 10 mg, Oral, BID, for 10 day(s), 10 tab(s), 20 Refill(s).\nfexofenadine: 2 mg, Oral, BID, for 2 day(s), tab(s).\nIncomplete\nfexofenadine: 29 mg, Buccal.\nOn Hold. Med Student\nfexofenadine: 20 mg.\nMedications Inactivated in the Last 72 Hours\nNo medications found.\nChief Complaint free text to test |\nHistory of Present Illness\nReview of Systems\nPhysical Exam\nVitals & Measurements\nProblem List/Past Medical History\nChronic\nNo chronic problems\nHistorical\nNo historical problems\nProcedure/Surqical History\nMedications\nAllergies\nglyBURIDE\nleflunomide\nSocial History\nFamily History\nImmunizations\nLab Results\nDiagnostic Results\n\nAssessment/Plan	110	on_note_creation	Note Creation.script
+2017-12-12 13:37:54.860 -0600	LogSuccess		Text is present	112	on_note_creation	Note Creation.script
+2017-12-12 13:37:54.965 -0600	capturescreen	Screen_Capture.png		113	on_note_creation	Note Creation.script
+2017-12-12 13:37:55.148 -0600	click	Cancel button	at (1229, 936)	119	on_note_creation	Note Creation.script
+2017-12-12 13:37:55.267 -0600	EndTestCase		(Duration:"62.092", Errors:"0", Exceptions:"0", StartTime:"2017-12-12 13:36:53 -0600", Successes:"1", TestCase:"Note Creation.script", Warnings:"0")
+2017-12-12 13:37:55.308 -0600	SUCCESS		Execution Time 0:01:02 Note Creation.script

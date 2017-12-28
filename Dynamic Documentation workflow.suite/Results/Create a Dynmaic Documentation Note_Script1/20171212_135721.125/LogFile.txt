@@ -1,0 +1,21 @@
+﻿2017-12-12 13:57:21.131 -0600	START		Running Create a Dynmaic Documentation Note.script
+2017-12-12 13:57:21.245 -0600	Log		DD2017-12-1201:57 PM	12	on_create_a_dynmaic_documentation_note	Create a Dynmaic Documentation Note.script
+2017-12-12 13:57:21.489 -0600	click	Click on Drop Down - Beside Add	at (277, 206)	3	on_new_admissionnotehp	Dynamic Documentation Utilities/Creating a New Note.script
+2017-12-12 13:57:22.435 -0600	click	DynamicDocumentation - option	at (319, 250)	4	on_new_admissionnotehp	Dynamic Documentation Utilities/Creating a New Note.script
+2017-12-12 13:57:24.970 -0600	waitfor	Ok Buttons	found at (1155, 937)	7	on_new_admissionnotehp	Dynamic Documentation Utilities/Creating a New Note.script
+2017-12-12 13:57:25.151 -0600	doubleclick	AdmissionHP	at (672, 368)	10	on_new_admissionnotehp	Dynamic Documentation Utilities/Creating a New Note.script
+2017-12-12 13:57:27.878 -0600	imagefound	OK_FailureMsg	found at (800, 590)	14	on_new_admissionnotehp	Dynamic Documentation Utilities/Creating a New Note.script
+2017-12-12 13:57:28.094 -0600	click	OK_FailureMsg	at (800, 590)	15	on_new_admissionnotehp	Dynamic Documentation Utilities/Creating a New Note.script
+2017-12-12 13:57:28.122 -0600	imagefound	OK_FailureMsg	found at (820, 608)	16	on_new_admissionnotehp	Dynamic Documentation Utilities/Creating a New Note.script
+2017-12-12 13:57:29.071 -0600	click	OK_FailureMsg	at (820, 608)	15	on_new_admissionnotehp	Dynamic Documentation Utilities/Creating a New Note.script
+2017-12-12 13:57:29.497 -0600	imagefound	OK_FailureMsg	found at (800, 590)	16	on_new_admissionnotehp	Dynamic Documentation Utilities/Creating a New Note.script
+2017-12-12 13:57:30.057 -0600	click	OK_FailureMsg	at (800, 590)	15	on_new_admissionnotehp	Dynamic Documentation Utilities/Creating a New Note.script
+2017-12-12 13:57:38.103 -0600	imagefound	OK_FailureMsg	Unable to Find Image OK_FailureMsg within 8.00 seconds	16	on_new_admissionnotehp	Dynamic Documentation Utilities/Creating a New Note.script
+2017-12-12 13:57:46.234 -0600	imagefound	OK_FailureMsg	Unable to Find Image OK_FailureMsg within 8.00 seconds	2	on_failuremsg	Dynamic Documentation Utilities/New_Note.script
+2017-12-12 13:57:50.649 -0600	moveto	(TEXT:"Chief Complaint")	at (300, 310)	2	on_freetext_chiefcomplaint	Dynamic Documentation Utilities/New_Note.script
+2017-12-12 13:57:51.443 -0600	moveto	ChiefComplaint_2	at (389, 308)	3	on_freetext_chiefcomplaint	Dynamic Documentation Utilities/New_Note.script
+2017-12-12 13:57:52.238 -0600	click	New_FreeText_new	at (391, 309)	4	on_freetext_chiefcomplaint	Dynamic Documentation Utilities/New_Note.script
+2017-12-12 13:57:52.951 -0600	typetext		.	2	on_insert_autotext	Dynamic Documentation Utilities/New_Note.script
+2017-12-12 13:57:54.203 -0600	doubleclick	(TEXT:"med")	at (284, 361)	3	on_insert_autotext	Dynamic Documentation Utilities/New_Note.script
+2017-12-12 13:57:54.338 -0600	EndTestCase		(Duration:"33.203", Errors:"1", Exceptions:"0", StartTime:"2017-12-12 13:57:21 -0600", Successes:"0", TestCase:"Create a Dynmaic Documentation Note.script", Warnings:"0")
+2017-12-12 13:57:54.478 -0600	FAILURE	Screen_Error.png	STUnknownMessage ERROR: No Such Command: 'autotext_conversion' -- Execution Time 0:00:33 Create a Dynmaic Documentation Note.script

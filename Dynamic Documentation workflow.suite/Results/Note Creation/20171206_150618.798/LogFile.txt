@@ -1,0 +1,24 @@
+﻿2017-12-06 15:06:18.814 -0600	START		Running Note Creation.script
+2017-12-06 15:06:19.052 -0600	click	Click on Drop Down - Beside Add	at (277, 206)	10	on_note_creation	Note Creation.script
+2017-12-06 15:06:20.069 -0600	click	DynamicDocumentation - option	at (319, 250)	11	on_note_creation	Note Creation.script
+2017-12-06 15:06:22.754 -0600	waitfor	Ok button_New Note	found at (1155, 937)	14	on_note_creation	Note Creation.script
+2017-12-06 15:06:22.954 -0600	doubleclick	AdmissionHP	at (672, 368)	17	on_note_creation	Note Creation.script
+2017-12-06 15:06:25.104 -0600	imagefound	OK	found at (799, 590)	21	on_note_creation	Note Creation.script
+2017-12-06 15:06:25.420 -0600	click	OK	at (799, 590)	22	on_note_creation	Note Creation.script
+2017-12-06 15:06:26.174 -0600	imagefound	OK	found at (801, 590)	23	on_note_creation	Note Creation.script
+2017-12-06 15:06:26.406 -0600	click	OK	at (801, 590)	22	on_note_creation	Note Creation.script
+2017-12-06 15:06:34.460 -0600	imagefound	OK	Unable to Find Image OK within 8.00 seconds	23	on_note_creation	Note Creation.script
+2017-12-06 15:06:34.660 -0600	click	ChiefComplaint_2	at (389, 308)	31	on_note_creation	Note Creation.script
+2017-12-06 15:06:35.570 -0600	click	ChiefComplaint_2	at (389, 308)	32	on_note_creation	Note Creation.script
+2017-12-06 15:06:36.314 -0600	typetext		.	35	on_note_creation	Note Creation.script
+2017-12-06 15:06:42.208 -0600	LogWarning		Unable to Find Text: .med * -- AutoUpdate engaged	36	on_note_creation	Note Creation.script
+2017-12-06 15:06:42.308 -0600	AutoUpdateCaptureScreen	AutoUpdate_0001.png		36	on_note_creation	Note Creation.script
+2017-12-06 15:06:42.308 -0600	AutoUpdateWarning	(TEXT:".med *")	Found Text -- Using TextDifference:2	36	on_note_creation	Note Creation.script	Info = "TextDifference:2"; Name = TextDifference; 
+2017-12-06 15:06:42.756 -0600	doubleclick	(TEXT:".med *")	at (282, 368)	36	on_note_creation	Note Creation.script
+2017-12-06 15:06:43.510 -0600	typetext		[enter]	37	on_note_creation	Note Creation.script
+2017-12-06 15:06:44.257 -0600	typetext		[enter]	38	on_note_creation	Note Creation.script
+2017-12-06 15:06:49.330 -0600	imagefound	OK	Unable to Find Image OK within 5.00 seconds	42	on_note_creation	Note Creation.script
+2017-12-06 15:06:51.678 -0600	LogWarning		Unable to Find Image(s): Delete Section.png -- AutoUpdate engaged	48	on_note_creation	Note Creation.script
+2017-12-06 15:06:53.873 -0600	Exception	Delete Section	No Image Found On Screen: "Delete Section"	48	on_note_creation	Note Creation.script
+2017-12-06 15:06:54.008 -0600	EndTestCase		(Duration:"35.193", Errors:"1", Exceptions:"1", StartTime:"2017-12-06 15:06:18 -0600", Successes:"0", TestCase:"Note Creation.script", Warnings:"2")
+2017-12-06 15:06:54.127 -0600	FAILURE	Screen_Error.png	Image Not Found click Error - No Image Found On Screen: "Delete Section" -- Execution Time 0:00:36 Note Creation.script

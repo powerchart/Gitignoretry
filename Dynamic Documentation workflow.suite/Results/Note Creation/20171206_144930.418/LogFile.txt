@@ -1,0 +1,15 @@
+﻿2017-12-06 14:49:30.418 -0600	START		Running Note Creation.script
+2017-12-06 14:49:30.635 -0600	click	Click on Drop Down - Beside Add	at (277, 206)	10	on_note_creation	Note Creation.script
+2017-12-06 14:49:31.719 -0600	click	DynamicDocumentation - option	at (319, 250)	11	on_note_creation	Note Creation.script
+2017-12-06 14:49:34.592 -0600	waitfor	Ok button_New Note	found at (1155, 937)	14	on_note_creation	Note Creation.script
+2017-12-06 14:49:34.855 -0600	doubleclick	AdmissionHP	at (672, 368)	17	on_note_creation	Note Creation.script
+2017-12-06 14:49:37.227 -0600	imagefound	OK	found at (799, 590)	21	on_note_creation	Note Creation.script
+2017-12-06 14:49:37.411 -0600	click	OK	at (799, 590)	22	on_note_creation	Note Creation.script
+2017-12-06 14:49:40.167 -0600	imagefound	OK	found at (801, 590)	23	on_note_creation	Note Creation.script
+2017-12-06 14:49:40.314 -0600	click	OK	at (801, 590)	22	on_note_creation	Note Creation.script
+2017-12-06 14:49:48.421 -0600	imagefound	OK	Unable to Find Image OK within 8.00 seconds	23	on_note_creation	Note Creation.script
+2017-12-06 14:49:48.637 -0600	click	ChiefComplaint_2	at (389, 308)	31	on_note_creation	Note Creation.script
+2017-12-06 14:49:49.522 -0600	click	ChiefComplaint_2	at (389, 308)	32	on_note_creation	Note Creation.script
+2017-12-06 14:49:50.259 -0600	typetext		.	35	on_note_creation	Note Creation.script
+2017-12-06 14:51:17.235 -0600	EndTestCase		(Duration:"106.817", Errors:"1", Exceptions:"0", StartTime:"2017-12-06 14:49:30 -0600", Successes:"0", TestCase:"Note Creation.script", Warnings:"0")
+2017-12-06 14:51:17.235 -0600	ABORTED		Execution Time 0:01:47 Note Creation.script

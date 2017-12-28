@@ -1,0 +1,50 @@
+﻿2017-12-12 14:43:22.496 -0600	START		Running Create a Dynmaic Documentation Note_Script1.script
+2017-12-12 14:43:22.695 -0600	click	Click on Drop Down - Beside Add	at (277, 206)	3	on_new_admissionnotehp	Dynamic Documentation Utilities/Creating a New Note.script
+2017-12-12 14:43:23.803 -0600	click	DynamicDocumentation - option	at (319, 250)	4	on_new_admissionnotehp	Dynamic Documentation Utilities/Creating a New Note.script
+2017-12-12 14:43:26.957 -0600	waitfor	Ok Buttons	found at (1155, 937)	7	on_new_admissionnotehp	Dynamic Documentation Utilities/Creating a New Note.script
+2017-12-12 14:43:27.139 -0600	doubleclick	AdmissionHP	at (672, 368)	10	on_new_admissionnotehp	Dynamic Documentation Utilities/Creating a New Note.script
+2017-12-12 14:43:28.682 -0600	imagefound	OK_FailureMsg	found at (800, 590)	14	on_new_admissionnotehp	Dynamic Documentation Utilities/Creating a New Note.script
+2017-12-12 14:43:28.912 -0600	click	OK_FailureMsg	at (800, 590)	15	on_new_admissionnotehp	Dynamic Documentation Utilities/Creating a New Note.script
+2017-12-12 14:43:28.939 -0600	imagefound	OK_FailureMsg	found at (820, 608)	16	on_new_admissionnotehp	Dynamic Documentation Utilities/Creating a New Note.script
+2017-12-12 14:43:29.874 -0600	click	OK_FailureMsg	at (820, 608)	15	on_new_admissionnotehp	Dynamic Documentation Utilities/Creating a New Note.script
+2017-12-12 14:43:30.230 -0600	imagefound	OK_FailureMsg	found at (800, 590)	16	on_new_admissionnotehp	Dynamic Documentation Utilities/Creating a New Note.script
+2017-12-12 14:43:30.853 -0600	click	OK_FailureMsg	at (800, 590)	15	on_new_admissionnotehp	Dynamic Documentation Utilities/Creating a New Note.script
+2017-12-12 14:43:38.888 -0600	imagefound	OK_FailureMsg	Unable to Find Image OK_FailureMsg within 8.00 seconds	16	on_new_admissionnotehp	Dynamic Documentation Utilities/Creating a New Note.script
+2017-12-12 14:43:47.107 -0600	imagefound	OK_FailureMsg	Unable to Find Image OK_FailureMsg within 8.00 seconds	2	on_failuremsg	Dynamic Documentation Utilities/New_Note.script
+2017-12-12 14:43:52.243 -0600	moveto	(TEXT:"Chief Complaint")	at (300, 310)	2	on_freetext_chiefcomplaint	Dynamic Documentation Utilities/New_Note.script
+2017-12-12 14:43:53.061 -0600	moveto	ChiefComplaint_2	at (389, 308)	3	on_freetext_chiefcomplaint	Dynamic Documentation Utilities/New_Note.script
+2017-12-12 14:43:53.882 -0600	click	New_FreeText_new	at (391, 309)	4	on_freetext_chiefcomplaint	Dynamic Documentation Utilities/New_Note.script
+2017-12-12 14:43:54.595 -0600	typetext		.	2	on_insert_autotext	Dynamic Documentation Utilities/New_Note.script
+2017-12-12 14:43:55.943 -0600	doubleclick	(TEXT:"med")	at (284, 361)	3	on_insert_autotext	Dynamic Documentation Utilities/New_Note.script
+2017-12-12 14:43:56.670 -0600	imagefound	Popup_OK2	found at (855, 611)	2	on_autotext_conversion	Dynamic Documentation Utilities/New_Note.script
+2017-12-12 14:43:56.803 -0600	click	Popup_OK2	at (855, 611)	3	on_autotext_conversion	Dynamic Documentation Utilities/New_Note.script
+2017-12-12 14:43:57.589 -0600	everyimagelocation	Delete Section	found 2 images	30	on_create_a_dynmaic_documentation_note_script1	Create a Dynmaic Documentation Note_Script1.script
+2017-12-12 14:43:57.591 -0600	Log		((412,309),(880,324))	30	on_create_a_dynmaic_documentation_note_script1	Create a Dynmaic Documentation Note_Script1.script
+2017-12-12 14:43:57.638 -0600	everyimagelocation	Delete Section	found 2 images	31	on_create_a_dynmaic_documentation_note_script1	Create a Dynmaic Documentation Note_Script1.script
+2017-12-12 14:43:57.729 -0600	click		at (880, 324)	31	on_create_a_dynmaic_documentation_note_script1	Create a Dynmaic Documentation Note_Script1.script
+2017-12-12 14:44:02.835 -0600	moveto	(TEXT:"Chief Complaint")	at (300, 310)	2	on_freetext_chiefcomplaint	Dynamic Documentation Utilities/New_Note.script
+2017-12-12 14:44:03.662 -0600	moveto	ChiefComplaint_2	at (389, 308)	3	on_freetext_chiefcomplaint	Dynamic Documentation Utilities/New_Note.script
+2017-12-12 14:44:04.548 -0600	click	New_FreeText_new	at (391, 309)	4	on_freetext_chiefcomplaint	Dynamic Documentation Utilities/New_Note.script
+2017-12-12 14:44:05.685 -0600	typetext		Chief Complaint free text to test	37	on_create_a_dynmaic_documentation_note_script1	Create a Dynmaic Documentation Note_Script1.script
+2017-12-12 14:44:06.702 -0600	click	Save_Icon	at (1045, 935)	40	on_create_a_dynmaic_documentation_note_script1	Create a Dynmaic Documentation Note_Script1.script
+2017-12-12 14:44:07.777 -0600	typetext		Progress Note-Nurse	3	on_savenote	Dynamic Documentation Utilities/Handle Save Note Dialog.script
+2017-12-12 14:44:08.753 -0600	click	Save_Title_TextBox	at (568, 492)	6	on_savenote	Dynamic Documentation Utilities/Handle Save Note Dialog.script
+2017-12-12 14:44:09.479 -0600	typetext		[controlKey]a	7	on_savenote	Dynamic Documentation Utilities/Handle Save Note Dialog.script
+2017-12-12 14:44:10.195 -0600	typetext		[deleteKey]	8	on_savenote	Dynamic Documentation Utilities/Handle Save Note Dialog.script
+2017-12-12 14:44:11.177 -0600	typetext		DD2017-12-1202:43 PM	10	on_savenote	Dynamic Documentation Utilities/Handle Save Note Dialog.script
+2017-12-12 14:44:12.179 -0600	click	OK_SaveNote_Window	at (892, 587)	13	on_savenote	Dynamic Documentation Utilities/Handle Save Note Dialog.script
+2017-12-12 14:44:17.538 -0600	click	Cancel button	at (1229, 936)	3	on_cancel	Dynamic Documentation Utilities/New_Note.script
+2017-12-12 14:44:19.788 -0600	imagefound	Preview_exists	Unable to Find Image Preview_exists within 2.00 seconds	2	on_previewon	Dynamic Documentation Utilities/DocumentViewing Preview.script
+2017-12-12 14:44:20.080 -0600	click	Minutes_ago	at (1243, 174)	51	on_create_a_dynmaic_documentation_note_script1	Create a Dynmaic Documentation Note_Script1.script
+2017-12-12 14:44:22.083 -0600	Log		DD2017-12-1202:43 PM	55	on_create_a_dynmaic_documentation_note_script1	Create a Dynmaic Documentation Note_Script1.script
+2017-12-12 14:44:24.849 -0600	doubleclick	(TEXT:"DD2017-12-1202:43 PM")	at (442, 328)	56	on_create_a_dynmaic_documentation_note_script1	Create a Dynmaic Documentation Note_Script1.script
+2017-12-12 14:44:29.045 -0600	waitfor	ChiefComplaint_2	found at (389, 308)	57	on_create_a_dynmaic_documentation_note_script1	Create a Dynmaic Documentation Note_Script1.script
+2017-12-12 14:44:29.998 -0600	readtext		(225,189,1266,913)
+2017-12-12 14:44:30.000 -0600	Log		List\nDD2017 12 1202:43 PM X\nTahoma\tJ | Size - J1\tB / U A:~ ^ m m s ©►{;\nProblem List/Past Medical History\nChronic\nNo chronic problems\nHistorical\nNo historical problems\nProcedure/Surqical History\nMedications\nAllergies\nglyBURIDE\nleflunomide\nSocial History\nFamily History\nImmunizations\nChief Complaint\nChief Complaint free text to test]\nHistory of Present Illness\nReview of Systems\nPhysical Exam\nVitals & Measurements\nAssessment/Plan\nLab Results\n<1\nDiagnostic Results	62	on_create_a_dynmaic_documentation_note_script1	Create a Dynmaic Documentation Note_Script1.script
+2017-12-12 14:44:30.005 -0600	LogSuccess		Text is present	64	on_create_a_dynmaic_documentation_note_script1	Create a Dynmaic Documentation Note_Script1.script
+2017-12-12 14:44:30.123 -0600	capturescreen	Screen_Capture.png		65	on_create_a_dynmaic_documentation_note_script1	Create a Dynmaic Documentation Note_Script1.script
+2017-12-12 14:44:30.328 -0600	click	Cancel button	at (1229, 936)	71	on_create_a_dynmaic_documentation_note_script1	Create a Dynmaic Documentation Note_Script1.script
+2017-12-12 14:44:35.591 -0600	click	(TEXT:"Clinical Notes")	at (39, 422)	2	on_selectapplication	PowerChart_FrameWork/PowerChart_Utilities.script
+2017-12-12 14:45:02.178 -0600	Exception	Clinical Notes Images/ClinicalNotes_ByStatus	No Image Found On Screen: "Clinical Notes Images/ClinicalNotes_ByStatus"	2	on_selectnoteusingbystatus	C:/temp/New/KC Travel/eggPlant/Training/Oncology Workflows.suite/Scripts/Selecting a Note from IndexTree.script
+2017-12-12 14:45:02.434 -0600	EndTestCase		(Duration:"99.932", Errors:"1", Exceptions:"1", StartTime:"2017-12-12 14:43:22 -0600", Successes:"1", TestCase:"Create a Dynmaic Documentation Note_Script1.script", Warnings:"0")
+2017-12-12 14:45:02.436 -0600	ABORTED		Execution Time 0:01:40 Create a Dynmaic Documentation Note_Script1.script

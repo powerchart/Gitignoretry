@@ -1,0 +1,17 @@
+﻿2017-12-06 15:23:42.331 -0600	START		Running Note Creation.script
+2017-12-06 15:23:42.532 -0600	click	Click on Drop Down - Beside Add	at (277, 206)	10	on_note_creation	Note Creation.script
+2017-12-06 15:23:43.518 -0600	click	DynamicDocumentation - option	at (319, 250)	11	on_note_creation	Note Creation.script
+2017-12-06 15:23:46.706 -0600	waitfor	Ok Buttons	found at (1155, 937)	14	on_note_creation	Note Creation.script
+2017-12-06 15:23:46.953 -0600	doubleclick	AdmissionHP	at (672, 368)	17	on_note_creation	Note Creation.script
+2017-12-06 15:23:46.990 -0600	imagefound	Ok Buttons	found at (1155, 937)	21	on_note_creation	Note Creation.script
+2017-12-06 15:23:47.938 -0600	click	Ok Buttons	at (1155, 937)	22	on_note_creation	Note Creation.script
+2017-12-06 15:23:49.388 -0600	imagefound	Ok Buttons	found at (799, 590)	23	on_note_creation	Note Creation.script
+2017-12-06 15:23:49.673 -0600	click	Ok Buttons	at (799, 590)	22	on_note_creation	Note Creation.script
+2017-12-06 15:23:50.642 -0600	imagefound	Ok Buttons	found at (801, 590)	23	on_note_creation	Note Creation.script
+2017-12-06 15:23:50.997 -0600	click	Ok Buttons	at (801, 590)	22	on_note_creation	Note Creation.script
+2017-12-06 15:23:59.134 -0600	imagefound	Ok Buttons	Unable to Find Image Ok Buttons within 8.00 seconds	23	on_note_creation	Note Creation.script
+2017-12-06 15:24:01.368 -0600	doubleclick	ChiefComplaint_2	at (389, 308)	30	on_note_creation	Note Creation.script
+2017-12-06 15:24:05.346 -0600	LogWarning		Unable to Find Image(s): ChiefComplaint_2.png -- AutoUpdate engaged	31	on_note_creation	Note Creation.script
+2017-12-06 15:24:19.077 -0600	Exception	ChiefComplaint_2	No Image Found On Screen: "ChiefComplaint_2"	31	on_note_creation	Note Creation.script
+2017-12-06 15:24:19.215 -0600	EndTestCase		(Duration:"36.884", Errors:"1", Exceptions:"1", StartTime:"2017-12-06 15:23:42 -0600", Successes:"0", TestCase:"Note Creation.script", Warnings:"1")
+2017-12-06 15:24:19.215 -0600	ABORTED		Execution Time 0:00:37 Note Creation.script

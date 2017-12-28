@@ -1,0 +1,33 @@
+﻿2017-12-06 17:31:08.677 -0600	START		Running Note Creation.script
+2017-12-06 17:31:08.941 -0600	click	Click on Drop Down - Beside Add	at (277, 206)	10	on_note_creation	Note Creation.script
+2017-12-06 17:31:09.996 -0600	click	DynamicDocumentation - option	at (319, 250)	11	on_note_creation	Note Creation.script
+2017-12-06 17:31:20.092 -0600	waitfor	Ok Buttons	found at (1155, 937)	14	on_note_creation	Note Creation.script
+2017-12-06 17:31:20.308 -0600	doubleclick	AdmissionHP	at (672, 368)	17	on_note_creation	Note Creation.script
+2017-12-06 17:31:20.392 -0600	imagefound	Ok Buttons	found at (1155, 937)	21	on_note_creation	Note Creation.script
+2017-12-06 17:31:21.340 -0600	click	Ok Buttons	at (1155, 937)	22	on_note_creation	Note Creation.script
+2017-12-06 17:31:21.409 -0600	imagefound	Ok Buttons	found at (1155, 937)	23	on_note_creation	Note Creation.script
+2017-12-06 17:31:22.210 -0600	click	Ok Buttons	at (1155, 937)	22	on_note_creation	Note Creation.script
+2017-12-06 17:31:22.295 -0600	imagefound	Ok Buttons	found at (1155, 937)	23	on_note_creation	Note Creation.script
+2017-12-06 17:31:23.259 -0600	click	Ok Buttons	at (1155, 937)	22	on_note_creation	Note Creation.script
+2017-12-06 17:31:23.296 -0600	imagefound	Ok Buttons	found at (1155, 937)	23	on_note_creation	Note Creation.script
+2017-12-06 17:31:24.161 -0600	click	Ok Buttons	at (1155, 937)	22	on_note_creation	Note Creation.script
+2017-12-06 17:31:24.261 -0600	imagefound	Ok Buttons	found at (1155, 937)	23	on_note_creation	Note Creation.script
+2017-12-06 17:31:25.062 -0600	click	Ok Buttons	at (1155, 937)	22	on_note_creation	Note Creation.script
+2017-12-06 17:31:25.146 -0600	imagefound	Ok Buttons	found at (1155, 937)	23	on_note_creation	Note Creation.script
+2017-12-06 17:31:25.963 -0600	click	Ok Buttons	at (1155, 937)	22	on_note_creation	Note Creation.script
+2017-12-06 17:31:26.001 -0600	imagefound	Ok Buttons	found at (1155, 937)	23	on_note_creation	Note Creation.script
+2017-12-06 17:31:26.850 -0600	click	Ok Buttons	at (1155, 937)	22	on_note_creation	Note Creation.script
+2017-12-06 17:31:26.950 -0600	imagefound	Ok Buttons	found at (1155, 937)	23	on_note_creation	Note Creation.script
+2017-12-06 17:31:27.783 -0600	click	Ok Buttons	at (1155, 937)	22	on_note_creation	Note Creation.script
+2017-12-06 17:31:27.872 -0600	imagefound	Ok Buttons	found at (1155, 937)	23	on_note_creation	Note Creation.script
+2017-12-06 17:31:28.784 -0600	click	Ok Buttons	at (1155, 937)	22	on_note_creation	Note Creation.script
+2017-12-06 17:31:28.821 -0600	imagefound	Ok Buttons	found at (1155, 937)	23	on_note_creation	Note Creation.script
+2017-12-06 17:31:29.701 -0600	click	Ok Buttons	at (1155, 937)	22	on_note_creation	Note Creation.script
+2017-12-06 17:31:29.803 -0600	imagefound	Ok Buttons	found at (1155, 937)	23	on_note_creation	Note Creation.script
+2017-12-06 17:31:30.624 -0600	click	Ok Buttons	at (1155, 937)	22	on_note_creation	Note Creation.script
+2017-12-06 17:31:30.655 -0600	imagefound	Ok Buttons	found at (1155, 937)	23	on_note_creation	Note Creation.script
+2017-12-06 17:31:31.557 -0600	click	Ok Buttons	at (1155, 937)	22	on_note_creation	Note Creation.script
+2017-12-06 17:31:31.588 -0600	imagefound	Ok Buttons	found at (1155, 937)	23	on_note_creation	Note Creation.script
+2017-12-06 17:32:38.470 -0600	Exception	Ok Buttons	No Image Found On Screen: "Ok Buttons"	22	on_note_creation	Note Creation.script
+2017-12-06 17:32:38.523 -0600	EndTestCase		(Duration:"89.845", Errors:"1", Exceptions:"1", StartTime:"2017-12-06 17:31:08 -0600", Successes:"0", TestCase:"Note Creation.script", Warnings:"0")
+2017-12-06 17:32:38.523 -0600	ABORTED		Execution Time 0:01:30 Note Creation.script

@@ -1,0 +1,5 @@
+﻿2017-12-07 10:37:02.328 -0600	START		Running Note Creation.script
+2017-12-07 10:37:02.413 -0600	Log		DD2017-12-0710:37 AM	13	on_note_creation	Note Creation.script
+2017-12-07 10:37:33.348 -0600	Exception	Click on Drop Down - Beside Add	No Image Found On Screen: "Click on Drop Down - Beside Add"	17	on_note_creation	Note Creation.script
+2017-12-07 10:37:33.464 -0600	EndTestCase		(Duration:"31.136", Errors:"1", Exceptions:"1", StartTime:"2017-12-07 10:37:02 -0600", Successes:"0", TestCase:"Note Creation.script", Warnings:"0")
+2017-12-07 10:37:33.464 -0600	ABORTED		Execution Time 0:00:31 Note Creation.script

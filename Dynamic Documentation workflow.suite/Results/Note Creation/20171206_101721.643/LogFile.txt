@@ -1,0 +1,26 @@
+﻿2017-12-06 10:17:21.658 -0600	START		Running Note Creation.script
+2017-12-06 10:17:21.874 -0600	click	Click on Drop Down - Beside Add	at (277, 206)	2	on_note_creation	Note Creation.script
+2017-12-06 10:17:22.860 -0600	click	DynamicDocumentation - option	at (319, 250)	3	on_note_creation	Note Creation.script
+2017-12-06 10:17:25.624 -0600	waitfor	Ok button_New Note	found at (1155, 937)	6	on_note_creation	Note Creation.script
+2017-12-06 10:17:25.845 -0600	doubleclick	AdmissionHP	at (672, 368)	9	on_note_creation	Note Creation.script
+2017-12-06 10:17:28.095 -0600	imagefound	OK	found at (799, 590)	13	on_note_creation	Note Creation.script
+2017-12-06 10:17:28.311 -0600	click	OK	at (799, 590)	14	on_note_creation	Note Creation.script
+2017-12-06 10:17:32.382 -0600	imagefound	OK	Unable to Find Image OK within 4.00 seconds	15	on_note_creation	Note Creation.script
+2017-12-06 10:17:32.551 -0600	click	ChiefComplaint_2	at (389, 308)	18	on_note_creation	Note Creation.script
+2017-12-06 10:17:33.451 -0600	click	ChiefComplaint_2	at (389, 308)	19	on_note_creation	Note Creation.script
+2017-12-06 10:17:35.416 -0600	typetext		Chief Complaint free text to test	23	on_note_creation	Note Creation.script
+2017-12-06 10:17:36.386 -0600	click	Save_Icon	at (1045, 935)	26	on_note_creation	Note Creation.script
+2017-12-06 10:17:37.787 -0600	typetext		Progress Note-Nurse	29	on_note_creation	Note Creation.script
+2017-12-06 10:17:38.757 -0600	click	Save_Title_TextBox	at (568, 492)	32	on_note_creation	Note Creation.script
+2017-12-06 10:17:39.520 -0600	typetext		[controlKey]a	33	on_note_creation	Note Creation.script
+2017-12-06 10:17:40.273 -0600	typetext		[deleteKey]	34	on_note_creation	Note Creation.script
+2017-12-06 10:17:41.121 -0600	typetext		DD1	36	on_note_creation	Note Creation.script
+2017-12-06 10:17:42.007 -0600	click	OK_SaveNote_Window	at (892, 587)	39	on_note_creation	Note Creation.script
+2017-12-06 10:17:47.299 -0600	click	Cancel button	at (1229, 936)	43	on_note_creation	Note Creation.script
+2017-12-06 10:17:48.301 -0600	click	(TEXT:"Preview")	at (689, 205)	46	on_note_creation	Note Creation.script
+2017-12-06 10:17:50.822 -0600	doubleclick	(TEXT:"DD1")	at (393, 326)	49	on_note_creation	Note Creation.script
+2017-12-06 10:17:51.777 -0600	readtext		(225,189,1266,913)
+2017-12-06 10:17:51.777 -0600	LogWarning		Text is not available	58	on_note_creation	Note Creation.script
+2017-12-06 10:17:54.684 -0600	click	Cancel button	at (1229, 936)	62	on_note_creation	Note Creation.script
+2017-12-06 10:17:54.784 -0600	EndTestCase		(Duration:"33.126", Errors:"0", Exceptions:"0", StartTime:"2017-12-06 10:17:21 -0600", Successes:"1", TestCase:"Note Creation.script", Warnings:"1")
+2017-12-06 10:17:54.831 -0600	SUCCESS		Execution Time 0:00:33 Note Creation.script

@@ -1,0 +1,8 @@
+﻿2017-12-06 15:13:08.604 -0600	START		Running Note Creation.script
+2017-12-06 15:13:08.832 -0600	click	Click on Drop Down - Beside Add	at (277, 206)	10	on_note_creation	Note Creation.script
+2017-12-06 15:13:09.790 -0600	click	DynamicDocumentation - option	at (319, 250)	11	on_note_creation	Note Creation.script
+2017-12-06 15:13:12.576 -0600	waitfor	Ok button_New Note	found at (1155, 937)	14	on_note_creation	Note Creation.script
+2017-12-06 15:13:12.793 -0600	doubleclick	AdmissionHP	at (672, 368)	17	on_note_creation	Note Creation.script
+2017-12-06 15:13:12.793 -0600	Exception	Ok Buttons	Could Not Open Image: Ok Buttons	21	on_note_creation	Note Creation.script
+2017-12-06 15:13:12.925 -0600	EndTestCase		(Duration:"4.306", Errors:"1", Exceptions:"1", StartTime:"2017-12-06 15:13:08 -0600", Successes:"0", TestCase:"Note Creation.script", Warnings:"0")
+2017-12-06 15:13:13.095 -0600	FAILURE	Screen_Error.png	File Not Found imagefound Error - Could Not Open Image: Ok Buttons -- Execution Time 0:00:04 Note Creation.script

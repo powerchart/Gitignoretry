@@ -1,0 +1,8 @@
+﻿2017-12-07 09:58:13.304 -0600	START		Running Create a Dynmaic Documentation Note.script
+2017-12-07 09:58:13.342 -0600	Log		DD2017-12-0709:58 AM	3	on_create_a_dynmaic_documentation_note	Create a Dynmaic Documentation Note.script
+2017-12-07 09:58:13.590 -0600	click	Save_Title_TextBox	at (568, 492)	4	on_only_title	Handle Save Note Dialog.script
+2017-12-07 09:58:14.359 -0600	typetext		[controlKey]a	5	on_only_title	Handle Save Note Dialog.script
+2017-12-07 09:58:15.107 -0600	typetext		[deleteKey]	6	on_only_title	Handle Save Note Dialog.script
+2017-12-07 09:58:16.577 -0600	typetext		DD2017-12-0709:58 AM	8	on_only_title	Handle Save Note Dialog.script
+2017-12-07 09:58:16.693 -0600	EndTestCase		(Duration:"3.389", Errors:"0", Exceptions:"0", StartTime:"2017-12-07 09:58:13 -0600", Successes:"1", TestCase:"Create a Dynmaic Documentation Note.script", Warnings:"0")
+2017-12-07 09:58:16.729 -0600	SUCCESS		Execution Time 0:00:03 Create a Dynmaic Documentation Note.script

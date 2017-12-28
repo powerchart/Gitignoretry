@@ -1,0 +1,28 @@
+﻿Date Run,Status,Time,# of Errors,# of Warnings,# of Exceptions,Log File,Return Value,Error Message,# of Successes
+2017-12-07 09:52:25.996 -0600,"Success",0:00:10,0,0,0,"20171207_095225.996/LogFile.txt","","",1
+2017-12-07 09:56:19.193 -0600,"Failure",0:00:27,1,0,1,"20171207_095619.193/LogFile.txt","","Image Not Found -- click Error - No Image Found On Screen: ""OK_SaveNote_Window""",0
+2017-12-07 09:57:16.181 -0600,"Failure",0:00:00,1,0,0,"20171207_095716.181/LogFile.txt","","STUnknownMessage -- ERROR: No Such Command: 'only_title'",0
+2017-12-07 09:57:42.693 -0600,"Failure",0:00:00,1,0,0,"20171207_095742.693/LogFile.txt","","SenseTalk Compiler Exception -- in only_title:\nWarning at line 9: Warning - Non-matching handler name: savenote",0
+2017-12-07 09:58:13.304 -0600,"Success",0:00:03,0,0,0,"20171207_095813.304/LogFile.txt","","",1
+2017-12-12 13:57:21.125 -0600,"Failure",0:00:33,1,0,0,"20171212_135721.125/LogFile.txt","","STUnknownMessage -- ERROR: No Such Command: 'autotext_conversion'",0
+2017-12-12 13:58:56.716 -0600,"Success",0:00:57,0,0,0,"20171212_135856.716/LogFile.txt","","",1
+2017-12-12 14:10:13.025 -0600,"Success",0:01:10,0,0,0,"20171212_141013.025/LogFile.txt","","",1
+2017-12-12 14:30:39.434 -0600,"Success",0:01:29,0,0,0,"20171212_143039.434/LogFile.txt","","",1
+2017-12-12 14:43:22.488 -0600,"Running",0:00:00,0,0,0,"20171212_144322.488/LogFile.txt","","",0
+2017-12-12 14:46:43.797 -0600,"Failure",0:01:56,1,0,1,"20171212_144643.797/LogFile.txt","","Image Not Found -- click Error - No Image Found On Screen: ""Clinical Notes Images/ClinicalNotes_ByStatus""",1
+2017-12-12 22:04:17.321 -0600,"Failure",0:00:34,1,0,1,"20171212_220417.321/LogFile.txt","","Image Not Found -- click Error - No Image Found On Screen: ""OK_FailureMsg""",0
+2017-12-12 22:05:34.902 -0600,"Success",0:01:08,0,0,0,"20171212_220534.902/LogFile.txt","","",1
+2017-12-13 22:29:01.748 -0600,"Running",0:00:00,0,0,0,"20171213_222901.748/LogFile.txt","","",0
+2017-12-13 22:29:44.200 -0600,"Success",0:01:09,0,0,0,"20171213_222944.200/LogFile.txt","","",1
+2017-12-14 08:30:24.536 -0600,"Success",0:01:20,0,0,0,"20171214_083024.536/LogFile.txt","","",1
+2017-12-15 14:21:33.935 -0600,"Success",0:01:14,0,0,0,"20171215_142133.935/LogFile.txt","","",1
+2017-12-19 11:54:56.559 +0530,"Failure",0:00:47,1,0,1,"20171219_115456.559/LogFile.txt","","Image Not Found -- click Error - No Image Found On Screen: ""OK_FailureMsg""",0
+2017-12-20 15:58:12.431 +0530,"Failure",0:01:40,1,0,1,"20171220_155812.431/LogFile.txt","","Image Not Found -- click Error - No Image Found On Screen: ""OK_SaveNote_Window""",0
+2017-12-27 13:31:10.045 +0530,"Running",0:00:00,0,0,0,"20171227_133110.045/LogFile.txt","","",0
+2017-12-27 13:33:21.389 +0530,"Failure",0:00:49,1,0,1,"20171227_133321.389/LogFile.txt","","Image Not Found -- click Error - No Image Found On Screen: ""OK_FailureMsg""",0
+2017-12-27 13:34:40.971 +0530,"Failure",0:00:48,1,0,1,"20171227_133440.971/LogFile.txt","","Image Not Found -- click Error - No Image Found On Screen: ""OK_FailureMsg""",0
+2017-12-27 13:36:14.252 +0530,"Failure",0:00:46,1,0,1,"20171227_133614.252/LogFile.txt","","Image Not Found -- click Error - No Image Found On Screen: ""OK_FailureMsg""",0
+2017-12-27 13:39:07.179 +0530,"Running",0:00:00,0,0,0,"20171227_133907.179/LogFile.txt","","",0
+2017-12-27 13:41:18.139 +0530,"Failure",0:01:39,1,0,1,"20171227_134118.139/LogFile.txt","","Image Not Found -- click Error - No Image Found On Screen: ""OK_SaveNote_Window""",0
+2017-12-27 13:43:41.484 +0530,"Success",0:01:37,0,0,0,"20171227_134341.484/LogFile.txt","","",1
+2017-12-27 14:00:01.431 +0530,"Success",0:01:36,0,0,0,"20171227_140001.431/LogFile.txt","","",1

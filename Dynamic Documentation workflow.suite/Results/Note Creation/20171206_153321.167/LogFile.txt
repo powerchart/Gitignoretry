@@ -1,0 +1,15 @@
+﻿2017-12-06 15:33:21.167 -0600	START		Running Note Creation.script
+2017-12-06 15:33:21.415 -0600	click	Click on Drop Down - Beside Add	at (277, 206)	10	on_note_creation	Note Creation.script
+2017-12-06 15:33:22.384 -0600	click	DynamicDocumentation - option	at (319, 250)	11	on_note_creation	Note Creation.script
+2017-12-06 15:33:25.634 -0600	waitfor	Ok Buttons	found at (1155, 937)	14	on_note_creation	Note Creation.script
+2017-12-06 15:33:25.865 -0600	doubleclick	AdmissionHP	at (672, 368)	17	on_note_creation	Note Creation.script
+2017-12-06 15:33:25.934 -0600	imagefound	Ok Buttons	found at (1155, 937)	21	on_note_creation	Note Creation.script
+2017-12-06 15:33:27.252 -0600	click	Ok Buttons	at (799, 590)	22	on_note_creation	Note Creation.script
+2017-12-06 15:33:29.507 -0600	imagefound	Ok Buttons	found at (801, 590)	23	on_note_creation	Note Creation.script
+2017-12-06 15:33:29.754 -0600	click	Ok Buttons	at (801, 590)	22	on_note_creation	Note Creation.script
+2017-12-06 15:33:37.983 -0600	imagefound	Ok Buttons	Unable to Find Image Ok Buttons within 8.00 seconds	23	on_note_creation	Note Creation.script
+2017-12-06 15:33:38.030 -0600	typetext		.	31	on_note_creation	Note Creation.script
+2017-12-06 15:33:50.014 -0600	LogWarning		OCR Text read in search rect: Tahoma\nSize *\nChief Complaint\nHistory of Present Illness\n*S mea^ Systems\n.tabtest\nPhysical Exam\nVitals & Measurements\nAssessment/Plan
+2017-12-06 15:34:10.043 -0600	Exception	(TEXT:".med *")	No Text Found On Screen: "(TEXT:".med *")"	32	on_note_creation	Note Creation.script
+2017-12-06 15:34:10.197 -0600	EndTestCase		(Duration:"49.03", Errors:"1", Exceptions:"1", StartTime:"2017-12-06 15:33:21 -0600", Successes:"0", TestCase:"Note Creation.script", Warnings:"1")
+2017-12-06 15:34:10.344 -0600	FAILURE	Screen_Error.png	Image Not Found doubleclick Error - No Text Found On Screen: "(TEXT:".med *")"  Restricted Search Rectangle ((235,255),(588,593))\n -- Execution Time 0:00:49 Note Creation.script

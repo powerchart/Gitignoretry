@@ -1,0 +1,10 @@
+﻿2017-12-07 09:56:19.208 -0600	START		Running Create a Dynmaic Documentation Note.script
+2017-12-07 09:56:19.262 -0600	Log		DD2017-12-0709:56 AM	3	on_create_a_dynmaic_documentation_note	Create a Dynmaic Documentation Note.script
+2017-12-07 09:56:20.109 -0600	typetext		DD2017-12-0709:56 AM	3	on_savenote	Handle Save Note Dialog.script
+2017-12-07 09:56:21.109 -0600	click	Save_Title_TextBox	at (568, 492)	6	on_savenote	Handle Save Note Dialog.script
+2017-12-07 09:56:21.879 -0600	typetext		[controlKey]a	7	on_savenote	Handle Save Note Dialog.script
+2017-12-07 09:56:22.627 -0600	typetext		[deleteKey]	8	on_savenote	Handle Save Note Dialog.script
+2017-12-07 09:56:23.343 -0600	typetext			10	on_savenote	Handle Save Note Dialog.script
+2017-12-07 09:56:46.656 -0600	Exception	OK_SaveNote_Window	No Image Found On Screen: "OK_SaveNote_Window"	13	on_savenote	Handle Save Note Dialog.script
+2017-12-07 09:56:46.756 -0600	EndTestCase		(Duration:"27.548", Errors:"1", Exceptions:"1", StartTime:"2017-12-07 09:56:19 -0600", Successes:"0", TestCase:"Create a Dynmaic Documentation Note.script", Warnings:"0")
+2017-12-07 09:56:46.879 -0600	FAILURE	Screen_Error.png	Image Not Found click Error - No Image Found On Screen: "OK_SaveNote_Window" -- Execution Time 0:00:27 Create a Dynmaic Documentation Note.script

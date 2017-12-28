@@ -1,0 +1,19 @@
+﻿2017-12-06 15:22:38.645 -0600	START		Running Note Creation.script
+2017-12-06 15:22:38.861 -0600	click	Click on Drop Down - Beside Add	at (277, 206)	10	on_note_creation	Note Creation.script
+2017-12-06 15:22:39.862 -0600	click	DynamicDocumentation - option	at (319, 250)	11	on_note_creation	Note Creation.script
+2017-12-06 15:22:42.734 -0600	waitfor	Ok Buttons	found at (1155, 937)	14	on_note_creation	Note Creation.script
+2017-12-06 15:22:42.966 -0600	doubleclick	AdmissionHP	at (672, 368)	17	on_note_creation	Note Creation.script
+2017-12-06 15:22:42.997 -0600	imagefound	Ok Buttons	found at (1155, 937)	21	on_note_creation	Note Creation.script
+2017-12-06 15:22:43.836 -0600	click	Ok Buttons	at (1155, 937)	22	on_note_creation	Note Creation.script
+2017-12-06 15:22:43.867 -0600	imagefound	Ok Buttons	found at (1155, 937)	23	on_note_creation	Note Creation.script
+2017-12-06 15:22:45.401 -0600	click	Ok Buttons	at (799, 590)	22	on_note_creation	Note Creation.script
+2017-12-06 15:22:46.402 -0600	imagefound	Ok Buttons	found at (801, 590)	23	on_note_creation	Note Creation.script
+2017-12-06 15:22:46.739 -0600	click	Ok Buttons	at (801, 590)	22	on_note_creation	Note Creation.script
+2017-12-06 15:22:54.860 -0600	imagefound	Ok Buttons	Unable to Find Image Ok Buttons within 8.00 seconds	23	on_note_creation	Note Creation.script
+2017-12-06 15:22:57.095 -0600	click	ChiefComplaint_2	at (389, 308)	30	on_note_creation	Note Creation.script
+2017-12-06 15:22:57.980 -0600	click	ChiefComplaint_2	at (389, 308)	31	on_note_creation	Note Creation.script
+2017-12-06 15:22:58.727 -0600	typetext		.	34	on_note_creation	Note Creation.script
+2017-12-06 15:23:04.633 -0600	LogWarning		Unable to Find Text: .med * -- AutoUpdate engaged	35	on_note_creation	Note Creation.script
+2017-12-06 15:23:07.679 -0600	Exception	(TEXT:".med *")	No Text Found On Screen: "(TEXT:".med *")"	35	on_note_creation	Note Creation.script
+2017-12-06 15:23:07.826 -0600	EndTestCase		(Duration:"29.181", Errors:"1", Exceptions:"1", StartTime:"2017-12-06 15:22:38 -0600", Successes:"0", TestCase:"Note Creation.script", Warnings:"1")
+2017-12-06 15:23:08.546 -0600	FAILURE	Screen_Error.png	Image Not Found doubleclick Error - No Text Found On Screen: "(TEXT:".med *")"  Restricted Search Rectangle ((248,289),(471,381))\n -- Execution Time 0:00:29 Note Creation.script

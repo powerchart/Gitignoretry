@@ -1,0 +1,7 @@
+﻿//Switching on the preview.
+
+on PreviewOn
+	if ImageFound(2.0, "Preview_exists")
+		click text:"Preview",searchRectangle:(414,171,745,242)
+	end if
+end PreviewOn

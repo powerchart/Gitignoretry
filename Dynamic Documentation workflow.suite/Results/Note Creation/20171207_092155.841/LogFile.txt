@@ -1,0 +1,38 @@
+﻿2017-12-07 09:21:55.857 -0600	START		Running Note Creation.script
+2017-12-07 09:21:56.088 -0600	click	Click on Drop Down - Beside Add	at (277, 206)	17	on_note_creation	Note Creation.script
+2017-12-07 09:21:57.074 -0600	click	DynamicDocumentation - option	at (319, 250)	18	on_note_creation	Note Creation.script
+2017-12-07 09:22:01.130 -0600	waitfor	Ok Buttons	found at (1155, 937)	21	on_note_creation	Note Creation.script
+2017-12-07 09:22:01.346 -0600	doubleclick	AdmissionHP	at (672, 368)	24	on_note_creation	Note Creation.script
+2017-12-07 09:22:02.847 -0600	imagefound	OK_FailureMsg	found at (800, 590)	28	on_note_creation	Note Creation.script
+2017-12-07 09:22:03.147 -0600	click	OK_FailureMsg	at (800, 590)	29	on_note_creation	Note Creation.script
+2017-12-07 09:22:03.933 -0600	imagefound	OK_FailureMsg	found at (802, 590)	30	on_note_creation	Note Creation.script
+2017-12-07 09:22:04.111 -0600	click	OK_FailureMsg	at (802, 590)	29	on_note_creation	Note Creation.script
+2017-12-07 09:22:12.219 -0600	imagefound	OK_FailureMsg	Unable to Find Image OK_FailureMsg within 8.00 seconds	30	on_note_creation	Note Creation.script
+2017-12-07 09:22:16.366 -0600	moveto	(TEXT:"Chief Complaint")	at (300, 310)	35	on_note_creation	Note Creation.script
+2017-12-07 09:22:17.183 -0600	moveto	ChiefComplaint_2	at (389, 308)	36	on_note_creation	Note Creation.script
+2017-12-07 09:22:18.031 -0600	click	New_FreeText_new	at (391, 309)	37	on_note_creation	Note Creation.script
+2017-12-07 09:22:18.784 -0600	typetext		.	45	on_note_creation	Note Creation.script
+2017-12-07 09:22:20.049 -0600	doubleclick	(TEXT:"med")	at (284, 361)	46	on_note_creation	Note Creation.script
+2017-12-07 09:22:20.471 -0600	imagefound	Popup_OK2	found at (855, 611)	51	on_note_creation	Note Creation.script
+2017-12-07 09:22:20.919 -0600	click	Popup_OK2	at (855, 611)	52	on_note_creation	Note Creation.script
+2017-12-07 09:22:21.672 -0600	everyimagelocation	Delete Section	found 2 images	58	on_note_creation	Note Creation.script
+2017-12-07 09:22:21.688 -0600	Log		((412,309),(880,324))	58	on_note_creation	Note Creation.script
+2017-12-07 09:22:21.751 -0600	everyimagelocation	Delete Section	found 2 images	59	on_note_creation	Note Creation.script
+2017-12-07 09:22:21.873 -0600	click		at (880, 324)	59	on_note_creation	Note Creation.script
+2017-12-07 09:22:26.665 -0600	moveto	(TEXT:"Chief Complaint")	at (300, 310)	66	on_note_creation	Note Creation.script
+2017-12-07 09:22:27.497 -0600	moveto	ChiefComplaint_2	at (389, 308)	67	on_note_creation	Note Creation.script
+2017-12-07 09:22:28.365 -0600	click	New_FreeText_new	at (391, 309)	68	on_note_creation	Note Creation.script
+2017-12-07 09:22:30.253 -0600	typetext		Chief Complaint free text to test	71	on_note_creation	Note Creation.script
+2017-12-07 09:22:31.185 -0600	click	Save_Icon	at (1045, 935)	74	on_note_creation	Note Creation.script
+2017-12-07 09:22:32.585 -0600	typetext		Progress Note-Nurse	77	on_note_creation	Note Creation.script
+2017-12-07 09:22:33.502 -0600	click	Save_Title_TextBox	at (568, 492)	80	on_note_creation	Note Creation.script
+2017-12-07 09:22:34.271 -0600	typetext		[controlKey]a	81	on_note_creation	Note Creation.script
+2017-12-07 09:22:35.020 -0600	typetext		[deleteKey]	82	on_note_creation	Note Creation.script
+2017-12-07 09:22:36.173 -0600	typetext		DD2017-12-07	84	on_note_creation	Note Creation.script
+2017-12-07 09:22:37.074 -0600	click	OK_SaveNote_Window	at (892, 587)	87	on_note_creation	Note Creation.script
+2017-12-07 09:22:42.379 -0600	click	Cancel button	at (1229, 936)	91	on_note_creation	Note Creation.script
+2017-12-07 09:22:44.565 -0600	imagefound	Preview_exists	Unable to Find Image Preview_exists within 2.00 seconds	95	on_note_creation	Note Creation.script
+2017-12-07 09:23:18.046 -0600	LogWarning		OCR Text read in search rect: Service Date/Time V\nSubject\nType\nFacility\n12/7/20179:22:00AM CST\nDD2017-12-07\nProgress Note-Nurse\nPending Refresh\n12/7/2017 9:16:00 AM CST\nDD2017-12-07\nProgress Note-Nurse\nBaseline East\n12/7/2017 9:10:00 AM CST\nDD5\nProgress Note-Nurse\nBaseline East\n12/7/2017 9:06:00 AM CST\nDD5\nProgress Note-Nurse\nBaseline East\n12/7/2017 9:04:00 AM CST\nDD5\nProgress Note-Nurse\nBaseline East\n12/6/2017 2:31:00 PM CST\nDD4\nProgress Note-Nurse\nBaseline East\n12/6/2017 10:29:00 AM ...\nDD4\nProgress Note-Nurse\nBaseline East\n12/6/2017 10:27:00 AM ...\nDD3\nProgress Note-Nurse\nBaseline East\n12/6/2017 10:25:00 AM ...\nDD3\nProgress Note-Nurse\nBaseline East\n12/6/2017 10:22:00 AM ...\nDD3\nProgress Note-Nurse\nBaseline East\n12/6/2017 10:19:00 AM ...\nDD3\nProgress Note-Nurse\nBaseline East\n12/6/2017 10:17:00 AM ...\nDD1\nProgress Note-Nurse\nBaseline East\n12/6/2017 9:55:00 AM CST\nDD1\nProgress Note-Nurse\nBaseline East\n12/6/2017 9:54:00 AM CST\nDD1\nProgress Note-Nurse\nBaseline East\n12/6/2017 9:52:00 AM CST\nDD1\nProgress Note-Nurse\nBaseline East\n12/6/2017 9:40:00 AM CST\nDD1\nProgress Note-Nurse\nBaseline East\n12/6/2017 9:34:00 AM CST\nDD1\nProgress Note-Nurse\nBaseline East\n12/6/2017 9:29:00 AM CST\nDD1\nProgress Note-Nurse\nBaseline East\n12/6/2017 9:22:00 AM CST\nDD1\nProgress Note-Nurse\nBaseline East\n10/26/2017 5:40:00 AM ...\ndss\nProgress Note-Nurse\nBaseline East\n10/26/2017 5:39:00 AM ...\nsdas\nPR_APHA_Pharmacy Clinical Note\nBaseline East\n10/26/2017 5:36:00 AM ...\ndfsdf\nPR_APHA_Pharmacy Clinical Note\nBaseline East\n10/26/2017 5:36:00 AM ...\nsdsd\nProgress Note-Nurse\nBaseline East\n3/9/2017 12:19:08 AM CST\n3/9/2017 12:18:33 AM CST\n\nPro Mammo Right\nPro CT Abdomen Flowsheet\nBaseline East\nBaseline East\nAuthor\nStatus\tDiagnosis\nSYSTEM\nPending Refresh\nSYSTEM\nIn Progress\nSYSTEM\nIn Progress\nSYSTEM\nIn Progress\nSYSTEM\nIn Progress\nSYSTEM\nIn Progress\nSYSTEM\nIn Progress\nSYSTEM\nIn Progress\nSYSTEM\nIn Progress\nSYSTEM\nIn Progress\nSYSTEM\nIn Progress\nSYSTEM\nIn Progress\nSYSTEM\nIn Progress\nSYSTEM\nIn Progress\nSYSTEM\nIn Progress\nSYSTEM\nIn Progress\nSYSTEM\nIn Progress\nSYSTEM\nIn Progress\nSYSTEM\nIn Progress\nSYSTEM\nAuth (Verified)\nSYSTEM\nAuth (Verified)\nSYSTEM\nAuth (Verified)\nSYSTEM\nPro, Rad\nPro, Rad\nAuth (Verified)\nAuth (Verified)\nAuth (Verified)
+2017-12-07 09:23:38.090 -0600	Exception	(TEXT:"title")	No Text Found On Screen: "(TEXT:"title")"	100	on_note_creation	Note Creation.script
+2017-12-07 09:23:38.206 -0600	EndTestCase		(Duration:"102.333", Errors:"1", Exceptions:"1", StartTime:"2017-12-07 09:21:55 -0600", Successes:"0", TestCase:"Note Creation.script", Warnings:"1")
+2017-12-07 09:23:38.407 -0600	FAILURE	Screen_Error.png	Image Not Found doubleclick Error - No Text Found On Screen: "(TEXT:"title")"  Restricted Search Rectangle ((232,295),(1265,821))\n -- Execution Time 0:01:43 Note Creation.script

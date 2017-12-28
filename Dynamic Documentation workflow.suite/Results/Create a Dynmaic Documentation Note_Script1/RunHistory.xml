@@ -1,0 +1,328 @@
+﻿<?xml version="1.0"?>
+<runHistory script="Create a Dynmaic Documentation Note">
+ <run>
+  <RunDate>2017-12-07 09:52:25.996 -0600</RunDate>
+  <Status>Success</Status>
+  <Duration>10.759000</Duration>
+  <Errors>0</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>1</Successes>
+  <LogFile>20171207_095225.996/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2017-12-07 09:56:19.193 -0600</RunDate>
+  <Status>Failure</Status>
+  <Duration>27.563000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>1</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20171207_095619.193/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>Image Not Found -- click Error - No Image Found On Screen: &quot;OK_SaveNote_Window&quot;</ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2017-12-07 09:57:16.181 -0600</RunDate>
+  <Status>Failure</Status>
+  <Duration>0.184000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20171207_095716.181/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>STUnknownMessage -- ERROR: No Such Command: &#x27;only_title&#x27;</ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2017-12-07 09:57:42.693 -0600</RunDate>
+  <Status>Failure</Status>
+  <Duration>0.116000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20171207_095742.693/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>SenseTalk Compiler Exception -- in only_title:
+Warning at line 9: Warning - Non-matching handler name: savenote</ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2017-12-07 09:58:13.304 -0600</RunDate>
+  <Status>Success</Status>
+  <Duration>3.389000</Duration>
+  <Errors>0</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>1</Successes>
+  <LogFile>20171207_095813.304/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2017-12-12 13:57:21.125 -0600</RunDate>
+  <Status>Failure</Status>
+  <Duration>33.212000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20171212_135721.125/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>STUnknownMessage -- ERROR: No Such Command: &#x27;autotext_conversion&#x27;</ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2017-12-12 13:58:56.716 -0600</RunDate>
+  <Status>Success</Status>
+  <Duration>57.197000</Duration>
+  <Errors>0</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>1</Successes>
+  <LogFile>20171212_135856.716/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2017-12-12 14:10:13.025 -0600</RunDate>
+  <Status>Success</Status>
+  <Duration>70.577000</Duration>
+  <Errors>0</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>1</Successes>
+  <LogFile>20171212_141013.025/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2017-12-12 14:30:39.434 -0600</RunDate>
+  <Status>Success</Status>
+  <Duration>89.653000</Duration>
+  <Errors>0</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>1</Successes>
+  <LogFile>20171212_143039.434/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2017-12-12 14:43:22.488 -0600</RunDate>
+  <Status>Running</Status>
+  <Duration>0.000000</Duration>
+  <Errors></Errors>
+  <Warnings></Warnings>
+  <Exceptions></Exceptions>
+  <Successes></Successes>
+  <LogFile>20171212_144322.488/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2017-12-12 14:46:43.797 -0600</RunDate>
+  <Status>Failure</Status>
+  <Duration>116.922000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>1</Exceptions>
+  <Successes>1</Successes>
+  <LogFile>20171212_144643.797/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>Image Not Found -- click Error - No Image Found On Screen: &quot;Clinical Notes Images/ClinicalNotes_ByStatus&quot;</ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2017-12-12 22:04:17.321 -0600</RunDate>
+  <Status>Failure</Status>
+  <Duration>34.999000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>1</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20171212_220417.321/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>Image Not Found -- click Error - No Image Found On Screen: &quot;OK_FailureMsg&quot;</ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2017-12-12 22:05:34.902 -0600</RunDate>
+  <Status>Success</Status>
+  <Duration>68.806000</Duration>
+  <Errors>0</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>1</Successes>
+  <LogFile>20171212_220534.902/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2017-12-13 22:29:01.748 -0600</RunDate>
+  <Status>Running</Status>
+  <Duration>0.000000</Duration>
+  <Errors></Errors>
+  <Warnings></Warnings>
+  <Exceptions></Exceptions>
+  <Successes></Successes>
+  <LogFile>20171213_222901.748/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2017-12-13 22:29:44.200 -0600</RunDate>
+  <Status>Success</Status>
+  <Duration>69.875000</Duration>
+  <Errors>0</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>1</Successes>
+  <LogFile>20171213_222944.200/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2017-12-14 08:30:24.536 -0600</RunDate>
+  <Status>Success</Status>
+  <Duration>80.202000</Duration>
+  <Errors>0</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>1</Successes>
+  <LogFile>20171214_083024.536/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2017-12-15 14:21:33.935 -0600</RunDate>
+  <Status>Success</Status>
+  <Duration>74.298000</Duration>
+  <Errors>0</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>1</Successes>
+  <LogFile>20171215_142133.935/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2017-12-19 11:54:56.559 +0530</RunDate>
+  <Status>Failure</Status>
+  <Duration>47.616000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>1</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20171219_115456.559/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>Image Not Found -- click Error - No Image Found On Screen: &quot;OK_FailureMsg&quot;</ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2017-12-20 15:58:12.431 +0530</RunDate>
+  <Status>Failure</Status>
+  <Duration>100.750000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>1</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20171220_155812.431/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>Image Not Found -- click Error - No Image Found On Screen: &quot;OK_SaveNote_Window&quot;</ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2017-12-27 13:31:10.045 +0530</RunDate>
+  <Status>Running</Status>
+  <Duration>0.000000</Duration>
+  <Errors></Errors>
+  <Warnings></Warnings>
+  <Exceptions></Exceptions>
+  <Successes></Successes>
+  <LogFile>20171227_133110.045/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2017-12-27 13:33:21.389 +0530</RunDate>
+  <Status>Failure</Status>
+  <Duration>49.529000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>1</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20171227_133321.389/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>Image Not Found -- click Error - No Image Found On Screen: &quot;OK_FailureMsg&quot;</ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2017-12-27 13:34:40.971 +0530</RunDate>
+  <Status>Failure</Status>
+  <Duration>48.310000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>1</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20171227_133440.971/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>Image Not Found -- click Error - No Image Found On Screen: &quot;OK_FailureMsg&quot;</ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2017-12-27 13:36:14.252 +0530</RunDate>
+  <Status>Failure</Status>
+  <Duration>46.418000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>1</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20171227_133614.252/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>Image Not Found -- click Error - No Image Found On Screen: &quot;OK_FailureMsg&quot;</ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2017-12-27 13:39:07.179 +0530</RunDate>
+  <Status>Running</Status>
+  <Duration>0.000000</Duration>
+  <Errors></Errors>
+  <Warnings></Warnings>
+  <Exceptions></Exceptions>
+  <Successes></Successes>
+  <LogFile>20171227_133907.179/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2017-12-27 13:41:18.139 +0530</RunDate>
+  <Status>Failure</Status>
+  <Duration>99.011000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>1</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20171227_134118.139/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>Image Not Found -- click Error - No Image Found On Screen: &quot;OK_SaveNote_Window&quot;</ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2017-12-27 13:43:41.484 +0530</RunDate>
+  <Status>Success</Status>
+  <Duration>97.197000</Duration>
+  <Errors>0</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>1</Successes>
+  <LogFile>20171227_134341.484/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2017-12-27 14:00:01.431 +0530</RunDate>
+  <Status>Success</Status>
+  <Duration>96.652000</Duration>
+  <Errors>0</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>1</Successes>
+  <LogFile>20171227_140001.431/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+</runHistory>

@@ -1,0 +1,24 @@
+﻿2017-12-06 10:19:31.342 -0600	START		Running Note Creation.script
+2017-12-06 10:19:31.565 -0600	click	Click on Drop Down - Beside Add	at (277, 206)	2	on_note_creation	Note Creation.script
+2017-12-06 10:19:32.513 -0600	click	DynamicDocumentation - option	at (319, 250)	3	on_note_creation	Note Creation.script
+2017-12-06 10:19:36.268 -0600	waitfor	Ok button_New Note	found at (1155, 937)	6	on_note_creation	Note Creation.script
+2017-12-06 10:19:36.486 -0600	doubleclick	AdmissionHP	at (672, 368)	9	on_note_creation	Note Creation.script
+2017-12-06 10:19:37.617 -0600	imagefound	OK	found at (799, 590)	13	on_note_creation	Note Creation.script
+2017-12-06 10:19:37.903 -0600	click	OK	at (799, 590)	14	on_note_creation	Note Creation.script
+2017-12-06 10:19:40.169 -0600	imagefound	OK	found at (801, 590)	15	on_note_creation	Note Creation.script
+2017-12-06 10:19:40.453 -0600	click	OK	at (801, 590)	14	on_note_creation	Note Creation.script
+2017-12-06 10:19:48.498 -0600	imagefound	OK	Unable to Find Image OK within 8.00 seconds	15	on_note_creation	Note Creation.script
+2017-12-06 10:19:48.698 -0600	click	ChiefComplaint_2	at (389, 308)	18	on_note_creation	Note Creation.script
+2017-12-06 10:19:49.562 -0600	click	ChiefComplaint_2	at (389, 308)	19	on_note_creation	Note Creation.script
+2017-12-06 10:19:51.501 -0600	typetext		Chief Complaint free text to test	23	on_note_creation	Note Creation.script
+2017-12-06 10:19:52.466 -0600	click	Save_Icon	at (1045, 935)	26	on_note_creation	Note Creation.script
+2017-12-06 10:19:53.867 -0600	typetext		Progress Note-Nurse	29	on_note_creation	Note Creation.script
+2017-12-06 10:19:54.836 -0600	click	Save_Title_TextBox	at (568, 492)	32	on_note_creation	Note Creation.script
+2017-12-06 10:19:55.606 -0600	typetext		[controlKey]a	33	on_note_creation	Note Creation.script
+2017-12-06 10:19:56.354 -0600	typetext		[deleteKey]	34	on_note_creation	Note Creation.script
+2017-12-06 10:19:57.209 -0600	typetext		DD3	36	on_note_creation	Note Creation.script
+2017-12-06 10:19:58.109 -0600	click	OK_SaveNote_Window	at (892, 587)	39	on_note_creation	Note Creation.script
+2017-12-06 10:20:03.361 -0600	click	Cancel button	at (1229, 936)	43	on_note_creation	Note Creation.script
+2017-12-06 10:21:03.773 -0600	Exception	(TEXT:"Preview")	No Text Found On Screen: "(TEXT:"Preview")"	46	on_note_creation	Note Creation.script
+2017-12-06 10:21:03.905 -0600	EndTestCase		(Duration:"92.563", Errors:"1", Exceptions:"1", StartTime:"2017-12-06 10:19:31 -0600", Successes:"0", TestCase:"Note Creation.script", Warnings:"0")
+2017-12-06 10:21:03.905 -0600	ABORTED		Execution Time 0:01:32 Note Creation.script

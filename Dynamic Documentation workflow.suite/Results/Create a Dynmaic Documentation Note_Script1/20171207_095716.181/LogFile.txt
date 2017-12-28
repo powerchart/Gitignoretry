@@ -1,0 +1,4 @@
+﻿2017-12-07 09:57:16.197 -0600	START		Running Create a Dynmaic Documentation Note.script
+2017-12-07 09:57:16.264 -0600	Log		DD2017-12-0709:57 AM	3	on_create_a_dynmaic_documentation_note	Create a Dynmaic Documentation Note.script
+2017-12-07 09:57:16.365 -0600	EndTestCase		(Duration:"0.168", Errors:"1", Exceptions:"0", StartTime:"2017-12-07 09:57:16 -0600", Successes:"0", TestCase:"Create a Dynmaic Documentation Note.script", Warnings:"0")
+2017-12-07 09:57:16.544 -0600	FAILURE	Screen_Error.png	STUnknownMessage ERROR: No Such Command: 'only_title' -- Execution Time 0:00:00 Create a Dynmaic Documentation Note.script

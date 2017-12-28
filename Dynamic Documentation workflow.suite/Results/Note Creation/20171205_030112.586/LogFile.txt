@@ -1,0 +1,8 @@
+﻿2017-12-05 03:01:12.586 +0530	START		Running Note Creation.script
+2017-12-05 03:01:12.787 +0530	click	Click on Drop Down - Beside Add	at (277, 206)	1	on_note_creation	Note Creation.script
+2017-12-05 03:01:13.819 +0530	click	DynamicDocumentation - option	at (319, 250)	2	on_note_creation	Note Creation.script
+2017-12-05 03:01:17.792 +0530	doubleclick	AdmissionHP	at (672, 368)	3	on_note_creation	Note Creation.script
+2017-12-05 03:01:19.848 +0530	click	ChiefComplaint	at (388, 308)	4	on_note_creation	Note Creation.script
+2017-12-05 03:01:20.948 +0530	click	ChiefComplaint_1	at (271, 326)	5	on_note_creation	Note Creation.script
+2017-12-05 03:01:21.080 +0530	EndTestCase		(Duration:"8.494", Errors:"0", Exceptions:"0", StartTime:"2017-12-05 03:01:12 +0530", Successes:"1", TestCase:"Note Creation.script", Warnings:"0")
+2017-12-05 03:01:21.128 +0530	SUCCESS		Execution Time 0:00:09 Note Creation.script

@@ -1,0 +1,15 @@
+﻿2017-12-06 17:42:35.106 -0600	START		Running Note Creation.script
+2017-12-06 17:42:35.338 -0600	click	Click on Drop Down - Beside Add	at (277, 206)	10	on_note_creation	Note Creation.script
+2017-12-06 17:42:36.377 -0600	click	DynamicDocumentation - option	at (319, 250)	11	on_note_creation	Note Creation.script
+2017-12-06 17:42:46.502 -0600	waitfor	Ok Buttons	found at (1155, 937)	14	on_note_creation	Note Creation.script
+2017-12-06 17:42:46.718 -0600	doubleclick	AdmissionHP	at (672, 368)	17	on_note_creation	Note Creation.script
+2017-12-06 17:43:04.913 -0600	imagefound	Ok Buttons	Unable to Find Image Ok Buttons within 8.00 seconds	21	on_note_creation	Note Creation.script
+2017-12-06 17:43:05.009 -0600	moveto	ChiefComplaint_2	at (389, 308)	27	on_note_creation	Note Creation.script
+2017-12-06 17:43:10.299 -0600	moveto	(TEXT:"Chief Complaint")	at (300, 309)	28	on_note_creation	Note Creation.script
+2017-12-06 17:43:11.184 -0600	moveto	ChiefComplaint_2	at (389, 308)	29	on_note_creation	Note Creation.script
+2017-12-06 17:43:12.123 -0600	click	ChiefComplaint_2	at (389, 308)	30	on_note_creation	Note Creation.script
+2017-12-06 17:43:12.871 -0600	typetext		.	34	on_note_creation	Note Creation.script
+2017-12-06 17:43:22.147 -0600	LogWarning		OCR Text read in search rect: Tahoma\nSize -\nChief Complaint\nHistory of Present Illness\nReview of Systems\nPhysical Exam\nVitals & Measurements\ni.\nAssessment/Plan\nFailure to Retrieve Da\nt\nAn error occur\n"Patient Chart\nsection of this\nContact your:
+2017-12-06 17:43:42.268 -0600	Exception	(TEXT:"med")	No Text Found On Screen: "(TEXT:"med")"	35	on_note_creation	Note Creation.script
+2017-12-06 17:43:42.353 -0600	EndTestCase		(Duration:"67.231", Errors:"1", Exceptions:"1", StartTime:"2017-12-06 17:42:35 -0600", Successes:"0", TestCase:"Note Creation.script", Warnings:"1")
+2017-12-06 17:43:42.538 -0600	FAILURE	Screen_Error.png	Image Not Found doubleclick Error - No Text Found On Screen: "(TEXT:"med")"  Restricted Search Rectangle ((235,255),(588,593))\n -- Execution Time 0:01:07 Note Creation.script

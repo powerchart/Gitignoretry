@@ -1,0 +1,36 @@
+﻿2017-12-06 17:15:36.322 -0600	START		Running Note Creation.script
+2017-12-06 17:15:36.591 -0600	click	Click on Drop Down - Beside Add	at (277, 206)	10	on_note_creation	Note Creation.script
+2017-12-06 17:15:37.593 -0600	click	DynamicDocumentation - option	at (319, 250)	11	on_note_creation	Note Creation.script
+2017-12-06 17:15:42.898 -0600	waitfor	Ok Buttons	found at (1158, 936)	14	on_note_creation	Note Creation.script
+2017-12-06 17:15:43.146 -0600	doubleclick	AdmissionHP	at (672, 368)	17	on_note_creation	Note Creation.script
+2017-12-06 17:15:43.252 -0600	imagefound	Ok Buttons	found at (1155, 937)	21	on_note_creation	Note Creation.script
+2017-12-06 17:15:44.069 -0600	click	Ok Buttons	at (1155, 937)	22	on_note_creation	Note Creation.script
+2017-12-06 17:15:44.116 -0600	imagefound	Ok Buttons	found at (1155, 937)	23	on_note_creation	Note Creation.script
+2017-12-06 17:15:44.970 -0600	click	Ok Buttons	at (1155, 937)	22	on_note_creation	Note Creation.script
+2017-12-06 17:15:45.001 -0600	imagefound	Ok Buttons	found at (1155, 937)	23	on_note_creation	Note Creation.script
+2017-12-06 17:15:45.902 -0600	click	Ok Buttons	at (1155, 937)	22	on_note_creation	Note Creation.script
+2017-12-06 17:15:45.933 -0600	imagefound	Ok Buttons	found at (1155, 937)	23	on_note_creation	Note Creation.script
+2017-12-06 17:15:46.818 -0600	click	Ok Buttons	at (1155, 937)	22	on_note_creation	Note Creation.script
+2017-12-06 17:15:46.856 -0600	imagefound	Ok Buttons	found at (1155, 937)	23	on_note_creation	Note Creation.script
+2017-12-06 17:15:47.703 -0600	click	Ok Buttons	at (1155, 937)	22	on_note_creation	Note Creation.script
+2017-12-06 17:15:47.734 -0600	imagefound	Ok Buttons	found at (1155, 937)	23	on_note_creation	Note Creation.script
+2017-12-06 17:15:48.604 -0600	click	Ok Buttons	at (1155, 937)	22	on_note_creation	Note Creation.script
+2017-12-06 17:15:48.689 -0600	imagefound	Ok Buttons	found at (1155, 937)	23	on_note_creation	Note Creation.script
+2017-12-06 17:15:51.709 -0600	click	Ok Buttons	at (799, 590)	22	on_note_creation	Note Creation.script
+2017-12-06 17:15:51.825 -0600	imagefound	Ok Buttons	found at (799, 590)	23	on_note_creation	Note Creation.script
+2017-12-06 17:15:52.711 -0600	click	Ok Buttons	at (799, 590)	22	on_note_creation	Note Creation.script
+2017-12-06 17:15:52.896 -0600	imagefound	Ok Buttons	found at (799, 590)	23	on_note_creation	Note Creation.script
+2017-12-06 17:15:53.681 -0600	click	Ok Buttons	at (819, 608)	22	on_note_creation	Note Creation.script
+2017-12-06 17:15:53.928 -0600	imagefound	Ok Buttons	found at (819, 608)	23	on_note_creation	Note Creation.script
+2017-12-06 17:15:55.183 -0600	click	Ok Buttons	at (799, 590)	22	on_note_creation	Note Creation.script
+2017-12-06 17:15:55.329 -0600	imagefound	Ok Buttons	found at (799, 590)	23	on_note_creation	Note Creation.script
+2017-12-06 17:15:56.185 -0600	click	Ok Buttons	at (800, 591)	22	on_note_creation	Note Creation.script
+2017-12-06 17:16:04.325 -0600	imagefound	Ok Buttons	Unable to Find Image Ok Buttons within 8.00 seconds	23	on_note_creation	Note Creation.script
+2017-12-06 17:16:08.239 -0600	moveto	(TEXT:"Chief Complaint")	at (300, 310)	28	on_note_creation	Note Creation.script
+2017-12-06 17:16:09.100 -0600	moveto	ChiefComplaint_2	at (389, 308)	29	on_note_creation	Note Creation.script
+2017-12-06 17:16:10.024 -0600	click	ChiefComplaint_2	at (389, 308)	30	on_note_creation	Note Creation.script
+2017-12-06 17:16:10.771 -0600	typetext		.	34	on_note_creation	Note Creation.script
+2017-12-06 17:16:17.332 -0600	LogWarning		OCR Text read in search rect: Tahoma\nSize\nChief Complaint\nHistory of Present Illness\nReview of Systems\nPhysical Exam\nVitals & Measurements\nAssessment/Plan
+2017-12-06 17:16:35.026 -0600	Exception	(TEXT:"med")	No Text Found On Screen: "(TEXT:"med")"	35	on_note_creation	Note Creation.script
+2017-12-06 17:16:35.110 -0600	EndTestCase		(Duration:"58.788", Errors:"1", Exceptions:"1", StartTime:"2017-12-06 17:15:36 -0600", Successes:"0", TestCase:"Note Creation.script", Warnings:"1")
+2017-12-06 17:16:35.126 -0600	ABORTED		Execution Time 0:00:59 Note Creation.script

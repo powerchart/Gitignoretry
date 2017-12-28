@@ -1,0 +1,85 @@
+﻿(******************************************
+TestCase: Creating a New Dynamic Documentaiton Note.
+Creator: VC024736
+Date:12/12/2017.
+******************************************)
+//StartMovie "C:\temp\New\KC Travel\eggPlant\Training\DD"
+//Declaring the Variable
+
+set title to DD&today&Time //Defining the title as DD<TodaysDate&Time>
+log title
+Put "med" into AutoText //Auto text name.
+put "Progress Note-Nurse" into NoteType //Defining the Notetype.
+put "Clinical Notes" into Application //Application to be selected.
+
+
+//Creating New Note using AdmissionHP Template.
+
+Run "Dynamic Documentation Utilities/Creating a New Note".New_AdmissionNoteHP
+
+
+//Handling the Failure to load section error message.
+wait 8
+Run "Dynamic Documentation Utilities/New_Note".FailureMsg
+
+//initating the free text , inserting the auto text and handling the autotext conversion dialog.
+Run "Dynamic Documentation Utilities/New_Note".FreeText_ChiefComplaint
+Run "Dynamic Documentation Utilities/New_Note".Insert_AutoText med
+Run "Dynamic Documentation Utilities/New_Note".AutoText_Conversion
+
+//Deleting the chiefcomplaint free text section.
+log EveryImageLocation("Delete Section")
+click item 2 of EveryImageLocation("Delete Section")
+
+//clicking on chiefcomplaint section and initating the free text.
+Run "Dynamic Documentation Utilities/New_Note".FreeText_ChiefComplaint
+
+//Entering some text in chief complaint section.
+typetext "Chief Complaint free text to test"
+
+//saving the note.
+Click "Save_Icon"
+
+wait 2
+
+Run "Dynamic Documentation Utilities/Handle Save Note Dialog".savenote NoteType,title
+
+Run "Dynamic Documentation Utilities/New_Note".Cancel
+
+
+//clicking on Preview 
+
+Run "Dynamic Documentation Utilities/DocumentViewing Preview".PreviewOn
+
+click Minutes_ago
+wait 2
+
+//Selecting the note and opening.
+log title
+doubleclick text:title, searchrectangle:((232,295,1265,821))
+waitfor 8.0, "ChiefComplaint_2"
+
+//Reading the text and validating the text is available.
+
+put ReadText((225,189,1266,913)) into Temp
+log temp
+if temp contains "Chief Complaint free text to test"
+	logsuccess "Text is present"
+	CaptureScreen
+else
+	LogWarning "Text is not available"
+end if
+
+//closing the note.
+click "Cancel button"
+
+//stopmovie
+
+(*put "Clinical Notes" into Application //Application to be selected.
+//Selecting  Clinical Notes Tab
+Run "PowerChart_FrameWork/PowerChart_Utilities".SelectApplication Application*)
+
+
+
+
+

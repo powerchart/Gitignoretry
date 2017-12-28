@@ -1,0 +1,9 @@
+﻿2017-12-06 17:46:35.577 -0600	START		Running Note Creation.script
+2017-12-06 17:46:35.778 -0600	click	Click on Drop Down - Beside Add	at (277, 206)	10	on_note_creation	Note Creation.script
+2017-12-06 17:46:36.832 -0600	click	DynamicDocumentation - option	at (319, 250)	11	on_note_creation	Note Creation.script
+2017-12-06 17:46:46.876 -0600	waitfor	Ok Buttons	found at (1155, 937)	14	on_note_creation	Note Creation.script
+2017-12-06 17:46:47.125 -0600	doubleclick	AdmissionHP	at (672, 368)	17	on_note_creation	Note Creation.script
+2017-12-06 17:46:55.202 -0600	imagefound	OK_FailureMsg	Unable to Find Image OK_FailureMsg within 8.00 seconds	21	on_note_creation	Note Creation.script
+2017-12-06 17:47:18.386 -0600	Exception	ChiefComplaint_2	No Image Found On Screen: "ChiefComplaint_2"	27	on_note_creation	Note Creation.script
+2017-12-06 17:47:18.440 -0600	EndTestCase		(Duration:"42.863", Errors:"1", Exceptions:"1", StartTime:"2017-12-06 17:46:35 -0600", Successes:"0", TestCase:"Note Creation.script", Warnings:"0")
+2017-12-06 17:47:18.609 -0600	FAILURE	Screen_Error.png	Image Not Found moveto Error - No Image Found On Screen: "ChiefComplaint_2" -- Execution Time 0:00:43 Note Creation.script

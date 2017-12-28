@@ -1,0 +1,30 @@
+﻿2017-12-06 10:29:36.015 -0600	START		Running Note Creation.script
+2017-12-06 10:29:36.268 -0600	click	Click on Drop Down - Beside Add	at (277, 206)	9	on_note_creation	Note Creation.script
+2017-12-06 10:29:37.268 -0600	click	DynamicDocumentation - option	at (319, 250)	10	on_note_creation	Note Creation.script
+2017-12-06 10:29:41.087 -0600	waitfor	Ok button_New Note	found at (1155, 937)	13	on_note_creation	Note Creation.script
+2017-12-06 10:29:41.319 -0600	doubleclick	AdmissionHP	at (672, 368)	16	on_note_creation	Note Creation.script
+2017-12-06 10:29:42.822 -0600	imagefound	OK	found at (799, 590)	20	on_note_creation	Note Creation.script
+2017-12-06 10:29:42.972 -0600	click	OK	at (799, 590)	21	on_note_creation	Note Creation.script
+2017-12-06 10:29:43.357 -0600	imagefound	OK	found at (819, 608)	22	on_note_creation	Note Creation.script
+2017-12-06 10:29:43.843 -0600	click	OK	at (819, 608)	21	on_note_creation	Note Creation.script
+2017-12-06 10:29:44.227 -0600	imagefound	OK	found at (799, 590)	22	on_note_creation	Note Creation.script
+2017-12-06 10:29:44.775 -0600	click	OK	at (799, 590)	21	on_note_creation	Note Creation.script
+2017-12-06 10:29:52.835 -0600	imagefound	OK	Unable to Find Image OK within 8.00 seconds	22	on_note_creation	Note Creation.script
+2017-12-06 10:29:52.998 -0600	click	ChiefComplaint_2	at (389, 308)	25	on_note_creation	Note Creation.script
+2017-12-06 10:29:53.883 -0600	click	ChiefComplaint_2	at (389, 308)	26	on_note_creation	Note Creation.script
+2017-12-06 10:29:55.782 -0600	typetext		Chief Complaint free text to test	30	on_note_creation	Note Creation.script
+2017-12-06 10:29:56.753 -0600	click	Save_Icon	at (1045, 935)	33	on_note_creation	Note Creation.script
+2017-12-06 10:29:58.154 -0600	typetext		Progress Note-Nurse	36	on_note_creation	Note Creation.script
+2017-12-06 10:29:59.087 -0600	click	Save_Title_TextBox	at (568, 492)	39	on_note_creation	Note Creation.script
+2017-12-06 10:29:59.856 -0600	typetext		[controlKey]a	40	on_note_creation	Note Creation.script
+2017-12-06 10:30:00.613 -0600	typetext		[deleteKey]	41	on_note_creation	Note Creation.script
+2017-12-06 10:30:01.458 -0600	typetext		DD4	43	on_note_creation	Note Creation.script
+2017-12-06 10:30:02.321 -0600	click	OK_SaveNote_Window	at (892, 587)	46	on_note_creation	Note Creation.script
+2017-12-06 10:30:07.564 -0600	click	Cancel button	at (1229, 936)	50	on_note_creation	Note Creation.script
+2017-12-06 10:30:09.756 -0600	imagefound	Preview_exists	Unable to Find Image Preview_exists within 2.00 seconds	54	on_note_creation	Note Creation.script
+2017-12-06 10:30:11.739 -0600	doubleclick	(TEXT:"DD4")	at (394, 326)	59	on_note_creation	Note Creation.script
+2017-12-06 10:30:12.677 -0600	readtext		(225,189,1266,913)
+2017-12-06 10:30:12.677 -0600	LogWarning		Text is not available	68	on_note_creation	Note Creation.script
+2017-12-06 10:30:15.095 -0600	click	Cancel button	at (1229, 936)	72	on_note_creation	Note Creation.script
+2017-12-06 10:30:15.210 -0600	EndTestCase		(Duration:"39.193", Errors:"0", Exceptions:"0", StartTime:"2017-12-06 10:29:36 -0600", Successes:"1", TestCase:"Note Creation.script", Warnings:"1")
+2017-12-06 10:30:15.247 -0600	SUCCESS		Execution Time 0:00:40 Note Creation.script

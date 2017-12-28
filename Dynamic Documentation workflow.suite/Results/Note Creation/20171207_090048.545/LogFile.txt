@@ -1,0 +1,4 @@
+﻿2017-12-07 09:00:48.545 -0600	START		Running Note Creation.script
+2017-12-07 09:00:48.761 -0600	click	Click on Drop Down - Beside Add	at (277, 206)	10	on_note_creation	Note Creation.script
+2017-12-07 09:00:49.524 -0600	EndTestCase		(Duration:"0.979", Errors:"1", Exceptions:"0", StartTime:"2017-12-07 09:00:48 -0600", Successes:"0", TestCase:"Note Creation.script", Warnings:"0")
+2017-12-07 09:00:49.524 -0600	ABORTED		Execution Time 0:00:01 Note Creation.script

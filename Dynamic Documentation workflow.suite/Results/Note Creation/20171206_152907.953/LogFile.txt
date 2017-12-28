@@ -1,0 +1,18 @@
+﻿2017-12-06 15:29:07.958 -0600	START		Running Note Creation.script
+2017-12-06 15:29:08.136 -0600	click	Click on Drop Down - Beside Add	at (277, 206)	10	on_note_creation	Note Creation.script
+2017-12-06 15:29:09.190 -0600	click	DynamicDocumentation - option	at (319, 250)	11	on_note_creation	Note Creation.script
+2017-12-06 15:29:11.962 -0600	waitfor	Ok Buttons	found at (1155, 937)	14	on_note_creation	Note Creation.script
+2017-12-06 15:29:12.225 -0600	doubleclick	AdmissionHP	at (672, 368)	17	on_note_creation	Note Creation.script
+2017-12-06 15:29:12.262 -0600	imagefound	Ok Buttons	found at (1155, 937)	21	on_note_creation	Note Creation.script
+2017-12-06 15:29:13.110 -0600	click	Ok Buttons	at (1155, 937)	22	on_note_creation	Note Creation.script
+2017-12-06 15:29:13.141 -0600	imagefound	Ok Buttons	found at (1155, 937)	23	on_note_creation	Note Creation.script
+2017-12-06 15:29:16.013 -0600	click	Ok Buttons	at (801, 590)	22	on_note_creation	Note Creation.script
+2017-12-06 15:29:16.615 -0600	imagefound	Ok Buttons	found at (799, 590)	23	on_note_creation	Note Creation.script
+2017-12-06 15:29:16.963 -0600	click	Ok Buttons	at (799, 590)	22	on_note_creation	Note Creation.script
+2017-12-06 15:29:25.077 -0600	imagefound	Ok Buttons	Unable to Find Image Ok Buttons within 8.00 seconds	23	on_note_creation	Note Creation.script
+2017-12-06 15:29:25.324 -0600	click	ChiefComplaint_2	at (389, 308)	26	on_note_creation	Note Creation.script
+2017-12-06 15:29:26.225 -0600	click	ChiefComplaint_2	at (389, 308)	27	on_note_creation	Note Creation.script
+2017-12-06 15:29:26.972 -0600	typetext		.	30	on_note_creation	Note Creation.script
+2017-12-06 15:29:35.467 -0600	LogWarning		OCR Text read in search rect: Tahoma\nSize -\nChief Complaint\nHistory of Present Illness\nReview of Systems\nPhysical Exam\nVitals & Measurements\nAssessment/Plan
+2017-12-06 15:29:39.041 -0600	EndTestCase		(Duration:"31.083", Errors:"1", Exceptions:"0", StartTime:"2017-12-06 15:29:07 -0600", Successes:"0", TestCase:"Note Creation.script", Warnings:"1")
+2017-12-06 15:29:39.057 -0600	ABORTED		Execution Time 0:00:32 Note Creation.script

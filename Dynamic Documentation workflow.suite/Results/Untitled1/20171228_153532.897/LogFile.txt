@@ -1,0 +1,3 @@
+﻿2017-12-28 15:35:32.899 +0530	START		Running Untitled1.script
+2017-12-28 15:35:33.038 +0530	EndTestCase		(Duration:"0.134154", Errors:"1", Exceptions:"0", StartTime:"2017-12-28 15:35:32 +0530", Successes:"0", TestCase:"Untitled1.script", Warnings:"0")
+2017-12-28 15:35:33.627 +0530	FAILURE	Screen_Error.png	STUnknownMessage ERROR: No Such Command: 'launchandloginapplication' -- Execution Time 0:00:00 Untitled1.script

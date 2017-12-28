@@ -1,0 +1,20 @@
+﻿//Creating a note using Admission note HP
+
+to New_AdmissionNoteHP
+	//Clicking on Add button and selecting Dynamic Documentation option
+	Click "Click on Drop Down - Beside Add"
+	Click (Image:"DynamicDocumentation - option", WaitFor:6)
+	
+	//wait for new note to load fully.
+	WaitFor 15.0,  "Ok Buttons"
+	
+	//Selecting the Template
+	DoubleClick (Image:"AdmissionHP", WaitFor:8.4)
+	
+	//wait 10
+	//Click on OK message untill the error msg popup closed.
+	Repeat while ImageFound(8.0, "OK_FailureMsg")
+		click  "OK_FailureMsg"
+		wait 2
+	End repeat
+end New_AdmissionNoteHP

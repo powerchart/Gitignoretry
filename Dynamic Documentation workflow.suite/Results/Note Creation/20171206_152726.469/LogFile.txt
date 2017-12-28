@@ -1,0 +1,17 @@
+﻿2017-12-06 15:27:26.469 -0600	START		Running Note Creation.script
+2017-12-06 15:27:26.685 -0600	click	Click on Drop Down - Beside Add	at (277, 206)	10	on_note_creation	Note Creation.script
+2017-12-06 15:27:27.672 -0600	click	DynamicDocumentation - option	at (319, 250)	11	on_note_creation	Note Creation.script
+2017-12-06 15:27:30.836 -0600	waitfor	Ok Buttons	found at (1155, 937)	14	on_note_creation	Note Creation.script
+2017-12-06 15:27:31.074 -0600	doubleclick	AdmissionHP	at (672, 368)	17	on_note_creation	Note Creation.script
+2017-12-06 15:27:31.121 -0600	imagefound	Ok Buttons	found at (1155, 937)	21	on_note_creation	Note Creation.script
+2017-12-06 15:27:33.075 -0600	click	Ok Buttons	at (799, 590)	22	on_note_creation	Note Creation.script
+2017-12-06 15:27:34.962 -0600	imagefound	Ok Buttons	found at (801, 590)	23	on_note_creation	Note Creation.script
+2017-12-06 15:27:35.240 -0600	click	Ok Buttons	at (801, 590)	22	on_note_creation	Note Creation.script
+2017-12-06 15:27:43.371 -0600	imagefound	Ok Buttons	Unable to Find Image Ok Buttons within 8.00 seconds	23	on_note_creation	Note Creation.script
+2017-12-06 15:27:43.633 -0600	click	ChiefComplaint_2	at (389, 308)	26	on_note_creation	Note Creation.script
+2017-12-06 15:27:44.535 -0600	click	ChiefComplaint_2	at (389, 308)	27	on_note_creation	Note Creation.script
+2017-12-06 15:27:45.287 -0600	typetext		.	30	on_note_creation	Note Creation.script
+2017-12-06 15:27:51.651 -0600	LogWarning		OCR Text read in search rect: Chief Complaint\nresent Illness\nHi\nSEWS\n.med\n.tahtest\nPk
+2017-12-06 15:28:37.685 -0600	LogWarning		OCR Text read in search rect: Chief Complaint\nresent Illness\nHi\nSEWS\n.med\n.tahtest\nPk
+2017-12-06 15:28:56.091 -0600	EndTestCase		(Duration:"89.622", Errors:"1", Exceptions:"0", StartTime:"2017-12-06 15:27:26 -0600", Successes:"0", TestCase:"Note Creation.script", Warnings:"2")
+2017-12-06 15:28:56.106 -0600	ABORTED		Execution Time 0:01:30 Note Creation.script

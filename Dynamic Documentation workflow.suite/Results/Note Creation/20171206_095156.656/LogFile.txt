@@ -1,0 +1,23 @@
+﻿2017-12-06 09:51:56.656 -0600	START		Running Note Creation.script
+2017-12-06 09:51:56.888 -0600	click	Click on Drop Down - Beside Add	at (277, 206)	2	on_note_creation	Note Creation.script
+2017-12-06 09:51:57.874 -0600	click	DynamicDocumentation - option	at (319, 250)	3	on_note_creation	Note Creation.script
+2017-12-06 09:52:01.932 -0600	waitfor	Ok button_New Note	found at (1155, 937)	6	on_note_creation	Note Creation.script
+2017-12-06 09:52:02.249 -0600	doubleclick	AdmissionHP	at (672, 368)	9	on_note_creation	Note Creation.script
+2017-12-06 09:52:05.913 -0600	imagefound	OK	found at (819, 608)	13	on_note_creation	Note Creation.script
+2017-12-06 09:52:06.251 -0600	click	OK	at (819, 608)	14	on_note_creation	Note Creation.script
+2017-12-06 09:52:06.714 -0600	imagefound	OK	found at (799, 590)	15	on_note_creation	Note Creation.script
+2017-12-06 09:52:07.099 -0600	click	OK	at (799, 590)	14	on_note_creation	Note Creation.script
+2017-12-06 09:52:11.175 -0600	imagefound	OK	Unable to Find Image OK within 4.00 seconds	15	on_note_creation	Note Creation.script
+2017-12-06 09:52:11.491 -0600	click	ChiefComplaint_2	at (389, 308)	18	on_note_creation	Note Creation.script
+2017-12-06 09:52:12.394 -0600	click	ChiefComplaint_2	at (389, 308)	19	on_note_creation	Note Creation.script
+2017-12-06 09:52:14.242 -0600	typetext		Chief Complaint free text to test	23	on_note_creation	Note Creation.script
+2017-12-06 09:52:15.327 -0600	click	Save_Icon	at (1045, 935)	26	on_note_creation	Note Creation.script
+2017-12-06 09:52:16.729 -0600	typetext		Progress Note-Nurse	29	on_note_creation	Note Creation.script
+2017-12-06 09:52:17.699 -0600	click	Save_Title_TextBox	at (568, 492)	32	on_note_creation	Note Creation.script
+2017-12-06 09:52:18.469 -0600	typetext		[controlKey]a	33	on_note_creation	Note Creation.script
+2017-12-06 09:52:19.216 -0600	typetext		[deleteKey]	34	on_note_creation	Note Creation.script
+2017-12-06 09:52:20.070 -0600	typetext		DD1	36	on_note_creation	Note Creation.script
+2017-12-06 09:52:21.123 -0600	click	OK_SaveNote_Window	at (892, 587)	39	on_note_creation	Note Creation.script
+2017-12-06 09:52:21.131 -0600	Exception		Too Few Parameters, please use waitfor time, image1[, imageX]	40	on_note_creation	Note Creation.script
+2017-12-06 09:52:21.353 -0600	EndTestCase		(Duration:"24.695", Errors:"1", Exceptions:"1", StartTime:"2017-12-06 09:51:56 -0600", Successes:"0", TestCase:"Note Creation.script", Warnings:"0")
+2017-12-06 09:52:21.657 -0600	FAILURE	Screen_Error.png	Error Running Script Command waitfor Error - Too Few Parameters, please use waitfor time, image1[, imageX] -- Execution Time 0:00:25 Note Creation.script

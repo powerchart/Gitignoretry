@@ -1,0 +1,11 @@
+﻿Date Run,Status,Time,# of Errors,# of Warnings,# of Exceptions,Log File,Return Value,Error Message,# of Successes
+2017-12-28 15:33:13.554 +0530,"Failure",0:00:00,1,0,0,"20171228_153313.554/LogFile.txt","","STUnknownMessage -- ERROR: No Such Command: 'launchandloginapplication'",0
+2017-12-28 15:34:07.427 +0530,"Failure",0:00:00,1,0,0,"20171228_153407.427/LogFile.txt","","STUnknownMessage -- ERROR: No Such Command: 'launchandloginapplication'",0
+2017-12-28 15:35:32.897 +0530,"Failure",0:00:00,1,0,0,"20171228_153532.897/LogFile.txt","","STUnknownMessage -- ERROR: No Such Command: 'launchandloginapplication'",0
+2017-12-28 15:38:10.193 +0530,"Failure",0:00:00,1,0,0,"20171228_153810.193/LogFile.txt","","SRUN_BadValue -- Bad value for Object expression.  Looking for an object or script identifier, got 'MyFunctions'.",0
+2017-12-28 15:39:54.825 +0530,"Failure",0:00:00,1,0,0,"20171228_153954.825/LogFile.txt","","SenseTalk Compiler Exception -- in untitled1:\nSyntax Error at line 2: Syntax Error - can't understand ""QCinquiry"" at or near character 43",0
+2017-12-28 15:40:20.514 +0530,"Failure",0:00:00,1,0,0,"20171228_154020.514/LogFile.txt","","SRUN_BadValue -- Bad value for Object expression.  Looking for an object or script identifier, got 'MyFunctions'.",0
+2017-12-28 15:41:06.003 +0530,"Failure",0:00:00,1,0,0,"20171228_154106.003/LogFile.txt","","SRUN_BadValue -- Bad value for Object expression.  Looking for an object or script identifier, got 'MyFunctions'.",0
+2017-12-28 15:41:26.028 +0530,"Failure",0:00:00,1,0,0,"20171228_154126.028/LogFile.txt","","STUnknownMessage -- ERROR: No Such Command: 'launchandloginapplication'",0
+2017-12-28 15:41:40.241 +0530,"Failure",0:00:00,1,0,0,"20171228_154140.241/LogFile.txt","","STUnknownMessage -- ERROR: No Such Command: 'launchandloginapplication'",0
+2017-12-28 15:49:18.390 +0530,"Success",0:00:15,0,1,0,"20171228_154918.390/LogFile.txt","","",1

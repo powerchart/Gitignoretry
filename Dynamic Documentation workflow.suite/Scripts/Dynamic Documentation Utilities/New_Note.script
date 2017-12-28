@@ -1,0 +1,42 @@
+﻿
+//Handling the Failure to load warning message.
+
+on FailureMsg
+	Repeat while ImageFound(8.0, "OK_FailureMsg")
+		click  "OK_FailureMsg"
+		wait 2
+	End repeat
+end FailureMsg
+
+
+
+//Initiate the Free text for the chief complaint section.
+
+on FreeText_ChiefComplaint
+	moveto Text:"Chief Complaint"
+	moveto "ChiefComplaint_2"
+	click "New_FreeText_new"
+end FreeText_ChiefComplaint
+
+//Inserting Auto Text.
+to Insert_AutoText AutoText
+	typetext "."
+	doubleclick text:AutoText,searchRectangle:((235,255,588,593))
+end Insert_AutoText
+
+//Handling AutoText conversion popup.
+
+on AutoText_Conversion
+	if ImageFound(5,"Popup_OK2" )
+		click "Popup_OK2"
+	end if
+end AutoText_Conversion
+
+//Clicking on Cancel button.
+
+on Cancel
+	//Close the note by clicking cancel.
+	Click "Cancel button"
+end Cancel
+
+

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0"?>
+<testsuites>
+ <testsuite name="Create a Dynmaic Documentation Note_Script1.script" package="Dynamic Documentation workflow.suite" timestamp="2017-12-27 13:33:21.389 +0530"
+ tests="1" successes="0" errors="1" time="49.529000">
+  <properties>
+   <property name="RunDate" value="2017-12-27 13:33:21.389 +0530"/>
+   <property name="Status" value="Failure"/>
+  </properties>
+  <testcase name="Create a Dynmaic Documentation Note_Script1.script" assertions="1" successes="0" errors="1" time="49.529">
+  </testcase>
+ </testsuite>
+</testsuites>

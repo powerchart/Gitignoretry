@@ -1,0 +1,46 @@
+﻿2017-12-07 10:28:30.010 -0600	START		Running Note Creation.script
+2017-12-07 10:28:30.088 -0600	Log		DD2017-12-0710:28 AM	13	on_note_creation	Note Creation.script
+2017-12-07 10:28:30.225 -0600	click	Click on Drop Down - Beside Add	at (277, 206)	17	on_note_creation	Note Creation.script
+2017-12-07 10:28:31.174 -0600	click	DynamicDocumentation - option	at (319, 250)	18	on_note_creation	Note Creation.script
+2017-12-07 10:28:33.646 -0600	waitfor	Ok Buttons	found at (1155, 937)	21	on_note_creation	Note Creation.script
+2017-12-07 10:28:33.885 -0600	doubleclick	AdmissionHP	at (672, 368)	24	on_note_creation	Note Creation.script
+2017-12-07 10:28:35.063 -0600	imagefound	OK_FailureMsg	found at (800, 590)	28	on_note_creation	Note Creation.script
+2017-12-07 10:28:35.332 -0600	click	OK_FailureMsg	at (800, 590)	29	on_note_creation	Note Creation.script
+2017-12-07 10:28:36.480 -0600	imagefound	OK_FailureMsg	found at (802, 590)	30	on_note_creation	Note Creation.script
+2017-12-07 10:28:36.765 -0600	click	OK_FailureMsg	at (802, 590)	29	on_note_creation	Note Creation.script
+2017-12-07 10:28:44.825 -0600	imagefound	OK_FailureMsg	Unable to Find Image OK_FailureMsg within 8.00 seconds	30	on_note_creation	Note Creation.script
+2017-12-07 10:28:48.765 -0600	moveto	(TEXT:"Chief Complaint")	at (300, 310)	35	on_note_creation	Note Creation.script
+2017-12-07 10:28:49.566 -0600	moveto	ChiefComplaint_2	at (389, 308)	36	on_note_creation	Note Creation.script
+2017-12-07 10:28:50.451 -0600	click	New_FreeText_new	at (391, 309)	37	on_note_creation	Note Creation.script
+2017-12-07 10:28:51.198 -0600	typetext		.	45	on_note_creation	Note Creation.script
+2017-12-07 10:28:52.499 -0600	doubleclick	(TEXT:"med")	at (284, 361)	46	on_note_creation	Note Creation.script
+2017-12-07 10:28:52.937 -0600	imagefound	Popup_OK2	found at (855, 611)	51	on_note_creation	Note Creation.script
+2017-12-07 10:28:53.384 -0600	click	Popup_OK2	at (855, 611)	52	on_note_creation	Note Creation.script
+2017-12-07 10:28:54.155 -0600	everyimagelocation	Delete Section	found 2 images	58	on_note_creation	Note Creation.script
+2017-12-07 10:28:54.155 -0600	Log		((412,309),(880,324))	58	on_note_creation	Note Creation.script
+2017-12-07 10:28:54.239 -0600	everyimagelocation	Delete Section	found 2 images	59	on_note_creation	Note Creation.script
+2017-12-07 10:28:54.386 -0600	click		at (880, 324)	59	on_note_creation	Note Creation.script
+2017-12-07 10:29:00.304 -0600	moveto	(TEXT:"Chief Complaint")	at (300, 310)	66	on_note_creation	Note Creation.script
+2017-12-07 10:29:01.091 -0600	moveto	ChiefComplaint_2	at (389, 308)	67	on_note_creation	Note Creation.script
+2017-12-07 10:29:01.961 -0600	click	New_FreeText_new	at (391, 309)	68	on_note_creation	Note Creation.script
+2017-12-07 10:29:03.850 -0600	typetext		Chief Complaint free text to test	71	on_note_creation	Note Creation.script
+2017-12-07 10:29:04.784 -0600	click	Save_Icon	at (1045, 935)	74	on_note_creation	Note Creation.script
+2017-12-07 10:29:06.119 -0600	typetext		Progress Note-Nurse	77	on_note_creation	Note Creation.script
+2017-12-07 10:29:07.043 -0600	click	Save_Title_TextBox	at (568, 492)	80	on_note_creation	Note Creation.script
+2017-12-07 10:29:07.806 -0600	typetext		[controlKey]a	81	on_note_creation	Note Creation.script
+2017-12-07 10:29:08.562 -0600	typetext		[deleteKey]	82	on_note_creation	Note Creation.script
+2017-12-07 10:29:10.011 -0600	typetext		DD2017-12-0710:28 AM	84	on_note_creation	Note Creation.script
+2017-12-07 10:29:10.887 -0600	click	OK_SaveNote_Window	at (892, 587)	87	on_note_creation	Note Creation.script
+2017-12-07 10:29:16.159 -0600	click	Cancel button	at (1229, 936)	91	on_note_creation	Note Creation.script
+2017-12-07 10:29:18.278 -0600	imagefound	Preview_exists	Unable to Find Image Preview_exists within 2.00 seconds	95	on_note_creation	Note Creation.script
+2017-12-07 10:29:18.494 -0600	click	Minutes_ago	at (1243, 174)	99	on_note_creation	Note Creation.script
+2017-12-07 10:29:20.496 -0600	Log		DD2017-12-0710:28 AM	103	on_note_creation	Note Creation.script
+2017-12-07 10:29:22.949 -0600	doubleclick	(TEXT:"DD2017-12-0710:28 AM")	at (442, 328)	104	on_note_creation	Note Creation.script
+2017-12-07 10:29:24.774 -0600	waitfor	ChiefComplaint_2	found at (389, 308)	105	on_note_creation	Note Creation.script
+2017-12-07 10:29:25.592 -0600	readtext		(225,189,1266,913)
+2017-12-07 10:29:25.592 -0600	Log		List\nDD2017-12-0710:28 AM X\nTahoma\tJ | Size - J1\tB / U A:~ ^ m m s ©►{;\nProblem List/Past Medical History\nChronic\nNo chronic problems\nHistorical\nNo historical problems\nProcedure/Surqical History\nMedications\nAllergies\nglyBURIDE\nleflunomide\nSocial History\nFamily History\nImmunizations\nChief Complaint\nChief Complaint free text to test]\nHistory of Present Illness\nReview of Systems\nPhysical Exam\nVitals & Measurements\nAssessment/Plan\nLab Results\n<1\nDiagnostic Results	110	on_note_creation	Note Creation.script
+2017-12-07 10:29:25.592 -0600	LogSuccess		Text is present	112	on_note_creation	Note Creation.script
+2017-12-07 10:29:25.708 -0600	capturescreen	Screen_Capture.png		113	on_note_creation	Note Creation.script
+2017-12-07 10:29:25.934 -0600	click	Cancel button	at (1229, 936)	119	on_note_creation	Note Creation.script
+2017-12-07 10:29:25.993 -0600	EndTestCase		(Duration:"55.968", Errors:"0", Exceptions:"0", StartTime:"2017-12-07 10:28:30 -0600", Successes:"1", TestCase:"Note Creation.script", Warnings:"0")
+2017-12-07 10:29:26.040 -0600	SUCCESS		Execution Time 0:00:55 Note Creation.script
